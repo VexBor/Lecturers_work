@@ -172,26 +172,7 @@ namespace Lecturers_work;
             if (result == 0)
             {
                 Console.WriteLine("Ви не вибрали жодного курсу!");
-                Console.WriteLine("1. Спробувати знову.");
-                Console.WriteLine("2. Вихід в меню.");
-                
-                int choice = Choice();
-
-                switch (choice)
-                {
-                    case 1:
-                        BuyCourses();
-                        break;
-                    case 2:
-                        ShowMenu();
-                        break;
-                    default:
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("Такого пункту не існує. Запуск меню.");
-                        Console.ResetColor();
-                        ShowMenu();
-                        break;
-                }
+                StartMenu();
             }
             else
             {
