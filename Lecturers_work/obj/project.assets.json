@@ -1,36 +1,44 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net8.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net8.0": []
   },
   "packageFolders": {
-    "/home/vadim/.nuget/packages/": {}
+    "C:\\Users\\vadim\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/vadim/Документи/Lecturers_work/Lecturers_work/Lecturers_work.csproj",
+      "projectUniqueName": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Lecturers_work.csproj",
       "projectName": "Lecturers_work",
-      "projectPath": "/home/vadim/Документи/Lecturers_work/Lecturers_work/Lecturers_work.csproj",
-      "packagesPath": "/home/vadim/.nuget/packages/",
-      "outputPath": "/home/vadim/Документи/Lecturers_work/Lecturers_work/obj/",
+      "projectPath": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Lecturers_work.csproj",
+      "packagesPath": "C:\\Users\\vadim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/vadim/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\vadim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -44,11 +52,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -60,18 +68,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[9.0.9, 9.0.9]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.110/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

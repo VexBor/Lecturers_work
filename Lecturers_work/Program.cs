@@ -1,9 +1,14 @@
-﻿using System.Drawing;
-using System.Globalization;
+﻿using System;
+using System.Text;
+using Lecturers_work.Application.Services;
+using Lecturers_work.Core.Entities;
+using Lecturers_work.Infrastructure.Data;
 
-namespace Lecturers_work;
-    public class Program
+class Program
+{
+    static void Main(string[] args)
     {
+<<<<<<< Updated upstream
         
         public static void Main(string[] args)
         {
@@ -116,5 +121,157 @@ namespace Lecturers_work;
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.WriteLine(finishPrice + " грн");
             Console.ResetColor();
+=======
+        // 1. Ініціалізація
+        var userRepo = new UserRepository("users.csv");
+        var courseRepo = new CourseRepository("courses.csv");
+        var recordRepo = new RecordRepository("records.csv");
+
+        var authService = new AuthService(userRepo);
+        var studyService = new StudyService(courseRepo, recordRepo);
+
+        // 2. Запуск меню
+        while (true)
+        {
+            if (authService.CurrentUser == null)
+                ShowLoginMenu(authService);
+            else
+                ShowMainMenu(authService, studyService);
+
         }
     }
+
+    static void ShowLoginMenu(AuthService auth)
+    {
+        Console.Clear();
+        Console.WriteLine("=== Вхід ===");
+        Console.WriteLine("1. Увійти");
+        Console.WriteLine("2. Зареєструватися");
+        Console.WriteLine("3. Вихід");
+        Console.Write("> ");
+
+        switch (Console.ReadLine())
+        {
+            case "1":
+                Console.Write("Email: "); var e = Console.ReadLine();
+                Console.Write("Пароль: "); var p = Console.ReadLine();
+                if (!auth.Login(e, p))
+                {
+                    Console.WriteLine("Помилка! Натисніть Enter.");
+                    Console.ReadLine();
+                }
+                break;
+            case "2":
+                Console.Write("Ім'я: "); string n = Console.ReadLine();
+                Console.Write("Email: "); string em = Console.ReadLine();
+                Console.Write("Пароль: "); string ps = Console.ReadLine();
+                UserRole r = UserRole.Student;
+                auth.Register(n, em, ps, r);
+                Console.WriteLine("Користувача додано! Натисніть Enter.");
+                Console.ReadLine();
+                auth.Login(em, ps);
+                break;
+            case "3":
+                Environment.Exit(0);
+                break;
+        }
+    }
+
+    static void ShowMainMenu(AuthService auth, StudyService study)
+    {
+        Console.Clear();
+        Console.WriteLine($"Вітаємо, {auth.CurrentUser.Name} ({auth.CurrentUser.Role})");
+
+        if (auth.CurrentUser.Role == UserRole.Admin)
+        {
+            Console.WriteLine("1. Створити курс");
+            Console.WriteLine("2. Зареєструвати нового користувача");
+        }
+        else if (auth.CurrentUser.Role == UserRole.Teacher)
+        {
+            Console.WriteLine("1. Мої курси");
+            Console.WriteLine("2. Поставити оцінку");
+        }
+        else if (auth.CurrentUser.Role == UserRole.Student)
+        {
+            Console.WriteLine("1. Список курсів");
+            Console.WriteLine("2. Моя успішність");
+            Console.WriteLine("3. Інформація про сервіс");
+        }
+
+        Console.WriteLine("0. Вихід з акаунту");
+        Console.Write("> ");
+        string choice = Console.ReadLine();
+
+        try
+        {
+            if (choice == "0") auth.Logout();
+
+            // Адмін
+            else if (auth.CurrentUser.Role == UserRole.Admin && choice == "1")
+            {
+                Console.Write("Назва: "); string t = Console.ReadLine();
+                Console.Write("Опис: "); string d = Console.ReadLine();
+                Console.Write("ID викладача: "); int tid = int.Parse(Console.ReadLine());
+                Console.Write("Ціна на курс: "); int price = int.Parse(Console.ReadLine());
+                study.CreateCourse(t, d, tid, price);
+                Console.WriteLine("Створено!");
+            }
+            else if (auth.CurrentUser.Role == UserRole.Admin && choice == "2")
+            {
+                Console.Write("Ім'я: "); string n = Console.ReadLine();
+                Console.Write("Email: "); string em = Console.ReadLine();
+                Console.Write("Пароль: "); string ps = Console.ReadLine();
+                Console.Write("Роль (1-Викладач, 2-Студент): ");
+                UserRole r = (UserRole)int.Parse(Console.ReadLine());
+                auth.Register(n, em, ps, r);
+                Console.WriteLine("Користувача додано!");
+            }
+
+            // Викладач
+            else if (auth.CurrentUser.Role == UserRole.Teacher && choice == "1")
+            {
+                var courses = study.GetCoursesByTeacher(auth.CurrentUser.Id);
+                foreach (var c in courses) Console.WriteLine($"ID: {c.Id} | {c.Title}");
+                Console.ReadLine();
+            }
+            else if (auth.CurrentUser.Role == UserRole.Teacher && choice == "2")
+            {
+                Console.Write("ID курсу: "); int cid = int.Parse(Console.ReadLine());
+                Console.Write("ID студента: "); int sid = int.Parse(Console.ReadLine());
+                Console.Write("Оцінка: "); int gr = int.Parse(Console.ReadLine());
+                Console.Write("Був присутній (true/false): "); bool pr = bool.Parse(Console.ReadLine());
+                study.GradeStudent(cid, sid, gr, pr);
+                Console.WriteLine("Оцінку збережено!");
+            }
+
+            // Студент
+            else if (auth.CurrentUser.Role == UserRole.Student && choice == "1")
+            {
+                var all = study.GetAllCourses();
+                foreach (var c in all) Console.WriteLine($"{c.Id}. {c.Title} - {c.Description}");
+                Console.ReadLine();
+            }
+            else if (auth.CurrentUser.Role == UserRole.Student && choice == "2")
+            {
+                double avg = study.GetStudentAverageGrade(auth.CurrentUser.Id);
+                Console.WriteLine($"Ваш середній бал: {avg:F2}");
+                Console.ReadLine();
+            }
+            else if (auth.CurrentUser.Role == UserRole.Student && choice == "3")
+            {
+                Console.WriteLine("Оформлюючи одну підписку, ви автоматично отримуєте ключі від" +
+                    "\n усіх наших курсів — як старих, так і тих, \nщо вийдуть у майбутньому (поки діє підписка).");
+
+                Console.WriteLine("Натисніть Enter...");
+                Console.ReadLine();
+            }
+>>>>>>> Stashed changes
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Помилка: {ex.Message}");
+            Console.ReadLine();
+        }
+    }
+}

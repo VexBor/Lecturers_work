@@ -1,0 +1,36 @@
+[*.cs]
+
+# ===============================
+# Documentation
+# ===============================
+dotnet_diagnostic.SA1600.severity = none
+dotnet_diagnostic.SA1602.severity = none
+dotnet_diagnostic.SA1611.severity = none
+dotnet_diagnostic.SA1615.severity = none
+
+# ===============================
+# Ordering & layout (important)
+# ===============================
+dotnet_diagnostic.SA1200.severity = warning
+dotnet_diagnostic.SA1201.severity = warning
+dotnet_diagnostic.SA1210.severity = warning
+dotnet_diagnostic.SA1507.severity = warning
+dotnet_diagnostic.SA1516.severity = warning
+
+# ===============================
+# Naming (soft but visible)
+# ===============================
+dotnet_diagnostic.SA1300.severity = suggestion
+dotnet_diagnostic.SA1309.severity = warning
+
+# ===============================
+# Readability
+# ===============================
+dotnet_diagnostic.SA1116.severity = warning
+dotnet_diagnostic.SA1124.severity = warning
+
+# ===============================
+# Noise reduction
+# ===============================
+dotnet_diagnostic.SA1101.severity = none # this.
+dotnet_diagnostic.SA1413.severity = none # trailing commas

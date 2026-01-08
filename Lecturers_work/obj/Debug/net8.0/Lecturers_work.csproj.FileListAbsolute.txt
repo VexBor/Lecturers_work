@@ -1,0 +1,15 @@
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\Lecturers_work.exe
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\Lecturers_work.deps.json
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\Lecturers_work.runtimeconfig.json
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\Lecturers_work.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\Lecturers_work.pdb
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturers_work.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturers_work.AssemblyInfoInputs.cache
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturers_work.AssemblyInfo.cs
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturers_work.csproj.CoreCompileInputs.cache
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturers_work.sourcelink.json
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturers_work.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\refint\Lecturers_work.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturers_work.pdb
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturers_work.genruntimeconfig.cache
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\ref\Lecturers_work.dll
