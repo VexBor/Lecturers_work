@@ -1,7 +1,7 @@
-﻿using Lecturers_work.Core.Entities;
-
-namespace Lecturers_work.Infrastructure.Data
+﻿namespace Lecturers_work.Infrastructure.Data
 {
+    using Lecturers_work.Core.Entities;
+
     public class UserRepository : CsvRepositoryBase<User>
     {
         public UserRepository(string path) : base(path) { }

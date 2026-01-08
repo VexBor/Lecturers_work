@@ -1,0 +1,3745 @@
+ß
+,Lecturers_work.Core.Entities.Course.Course()]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs ("0*f
+0J
+H
+
+%0void"object.Object()*)'%
+#Lecturers_work.Core.Entities.Course"
+implicit returnB'%
+#Lecturers_work.Core.Entities.CourseHX`ß
+,Lecturers_work.Core.Entities.Record.Record()]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs ("0*f
+0J
+H
+
+%0void"object.Object()*)'%
+#Lecturers_work.Core.Entities.Record"
+implicit returnB'%
+#Lecturers_work.Core.Entities.RecordHX`«
+Program.Program()P
+FC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Program.cs
+ 
+("0*J
+0.
+,
+
+%0void"object.Object()*	
+Program"
+implicit returnB	
+ProgramHX`ù
+(Lecturers_work.Core.Entities.User.User()[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs ("0*d
+0H
+F
+
+%0void"object.Object()*'%#
+!Lecturers_work.Core.Entities.User"
+implicit returnB%#
+!Lecturers_work.Core.Entities.UserHX`ø
+(Lecturers_work.Core.Entities.User.Id.get[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs	 	("0*Ö
+0	 	(á
+Ñ
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs	 	(
+%retint"__id*ë
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs	 	(2*0#
+!Lecturers_work.Core.Entities.User"	
+Idint"l
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs	 	(
+
+%retintB%#
+!Lecturers_work.Core.Entities.UserHX`å
+?Lecturers_work.Application.Services.AuthService.CurrentUser.geti
+_C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\AuthService.cs
+" 
+(%"0*°
+0
+& 
+(&ˆ
+Û
+i
+_C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\AuthService.cs
+" 
+(%)
+%ret!Lecturers_work.Core.Entities.User"__id*‘
+i
+_C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\AuthService.cs
+" 
+(%g*e1
+/Lecturers_work.Application.Services.AuthService"0
+CurrentUser!Lecturers_work.Core.Entities.User"ò
+i
+_C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\AuthService.cs
+" 
+(%+
+)
+%ret!Lecturers_work.Core.Entities.UserB31
+/Lecturers_work.Application.Services.AuthServiceH`∑
+?Lecturers_work.Application.Services.AuthService.CurrentUser.seti
+_C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\AuthService.cs
+/ 
+(2"0*û
+0
+3 
+(3ã
+à
+i
+_C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\AuthService.cs
+/ 
+(2e1
+/Lecturers_work.Application.Services.AuthService"0
+CurrentUser!Lecturers_work.Core.Entities.User"__id*.,
+*
+value!Lecturers_work.Core.Entities.User"Ä
+i
+_C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\AuthService.cs
+/ 
+(2
+implicit return:,*
+value!Lecturers_work.Core.Entities.UserB31
+/Lecturers_work.Application.Services.AuthServiceX` 
+*Lecturers_work.Core.Entities.User.Name.get[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs ( "0*ê
+0! (!è
+å
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs ( 
+%retstring"__id*ñ
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs ( 7*5#
+!Lecturers_work.Core.Entities.User"
+Namestring"o
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs ( 
+
+%retstringB%#
+!Lecturers_work.Core.Entities.UserH`Õ
+*Lecturers_work.Core.Entities.Course.Id.get]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs ("0*ç
+0 (ç
+ä
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs (
+%retint"__id*ï
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs (4*2%
+#Lecturers_work.Core.Entities.Course"	
+Idint"n
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs (
+
+%retintB'%
+#Lecturers_work.Core.Entities.CourseHX`⁄
+-Lecturers_work.Core.Entities.Course.Title.get]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs (!"0*ô
+0" ("ñ
+ì
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs (!
+%retstring"__id*õ
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs (!:*8%
+#Lecturers_work.Core.Entities.Course"
+Titlestring"q
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs (!
+
+%retstringB'%
+#Lecturers_work.Core.Entities.CourseH`¿
+HLecturers_work.Infrastructure.Data.UserRepository.UserRepository(string)k
+aC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\UserRepository.cs ("0*
+0 (*
+1*Ë
+1+ (7”
+–
++ (7
+
+%0void"QLecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.CsvRepositoryBase(string)*G
++ (7;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>*
+2 (6
+
+pathstring*
+2*.
+2; (;"
+: (;
+implicit return:
+ ()
+pathstringB53
+1Lecturers_work.Infrastructure.Data.UserRepositoryHX¯
+(Lecturers_work.Core.Entities.User.Id.set[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs	 	( "0*Æ
+0	! 	(!™
+ß
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs	 	( 0#
+!Lecturers_work.Core.Entities.User"	
+Idint"__id*
+
+valueint"r
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs	 	( 
+implicit return:
+valueintB%#
+!Lecturers_work.Core.Entities.UserHX`˘
+ﬂLecturers_work.Application.Services.StudyService.StudyService(Lecturers_work.Core.Interfaces.IRepository<Lecturers_work.Core.Entities.Course>, Lecturers_work.Core.Interfaces.IRepository<Lecturers_work.Core.Entities.Record>)j
+`C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\StudyService.cs ("0*
+0 (*
+1*ï
+1 (%k
+i
+ (	
+
+%0void"object.Object()*@
+ (	42
+0Lecturers_work.Application.Services.StudyService»
+≈
+ ($r2
+0Lecturers_work.Application.Services.StudyService"<
+_courseRepo-Lecturers_work.Core.Interfaces.IRepository<T>"__id*?=
+;
+
+courseRepo-Lecturers_work.Core.Interfaces.IRepository<T>»
+≈
+ ($r2
+0Lecturers_work.Application.Services.StudyService"<
+_recordRepo-Lecturers_work.Core.Interfaces.IRepository<T>"__id*?=
+;
+
+recordRepo-Lecturers_work.Core.Interfaces.IRepository<T>*
+2*.
+2	 (	"
+ (	
+implicit return:G
+ (:;
+
+courseRepo-Lecturers_work.Core.Interfaces.IRepository<T>:G
+< (Z;
+
+recordRepo-Lecturers_work.Core.Interfaces.IRepository<T>B42
+0Lecturers_work.Application.Services.StudyServiceHXÜ
+äLecturers_work.Application.Services.AuthService.AuthService(Lecturers_work.Core.Interfaces.IRepository<Lecturers_work.Core.Entities.User>)i
+_C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\AuthService.cs ("0*
+0 (*
+1*ƒ
+1 (!j
+h
+ (	
+
+%0void"object.Object()*?
+ (	31
+/Lecturers_work.Application.Services.AuthService√
+¿
+ ( o1
+/Lecturers_work.Application.Services.AuthService":
+	_userRepo-Lecturers_work.Core.Interfaces.IRepository<T>"__id*=;
+9
+userRepo-Lecturers_work.Core.Interfaces.IRepository<T>*
+2*.
+2	 (	"
+ (	
+implicit return:E
+ (59
+userRepo-Lecturers_work.Core.Interfaces.IRepository<T>B31
+/Lecturers_work.Application.Services.AuthServiceHXÖ
+*Lecturers_work.Core.Entities.User.Name.set[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs" (%"0*∂
+0& (&≤
+Ø
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs" (%5#
+!Lecturers_work.Core.Entities.User"
+Namestring"__id*
+
+valuestring"r
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs" (%
+implicit return:
+valuestringB%#
+!Lecturers_work.Core.Entities.UserHX`Ñ
+*Lecturers_work.Core.Entities.Course.Id.set]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs ( "0*¥
+0! (!Æ
+´
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs ( 2%
+#Lecturers_work.Core.Entities.Course"	
+Idint"__id*
+
+valueint"t
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs ( 
+implicit return:
+valueintB'%
+#Lecturers_work.Core.Entities.CourseHX`»
+LLecturers_work.Infrastructure.Data.CourseRepository.CourseRepository(string)m
+cC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CourseRepository.cs ("0*
+0 (*
+1*Ë
+1- (9”
+–
+- (9
+
+%0void"QLecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.CsvRepositoryBase(string)*G
+- (9;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>*
+4 (8
+
+pathstring*
+2*.
+2= (="
+< (=
+implicit return:
+  (+
+pathstringB75
+3Lecturers_work.Infrastructure.Data.CourseRepositoryHXì
+-Lecturers_work.Core.Entities.Course.Title.set]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs# (&"0*Ω
+0' ('∑
+¥
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs# (&8%
+#Lecturers_work.Core.Entities.Course"
+Titlestring"__id*
+
+valuestring"t
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs# (&
+implicit return:
+valuestringB'%
+#Lecturers_work.Core.Entities.CourseHX`å
+=Lecturers_work.Infrastructure.Data.UserRepository.GetHeader()k
+aC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\UserRepository.cs	" 	(+"0*
+0	 	(*
+1*c
+1	1 	(NO
+M
+	1 	(N
+%retstring"__id*+
+	1 	(N
+Id,Name,Email,Password,Role*
+2*+
+2	O 	(O"
+	N 	(O
+
+%retstringB53
+1Lecturers_work.Infrastructure.Data.UserRepositoryÊ
+3Lecturers_work.Core.Entities.Course.Description.get]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs	$ 	('"0*ü
+0	( 	((ú
+ô
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs	$ 	('
+%retstring"__id*°
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs	$ 	('@*>%
+#Lecturers_work.Core.Entities.Course"
+Descriptionstring"q
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs	$ 	('
+
+%retstringB'%
+#Lecturers_work.Core.Entities.CourseH`ï
+?Lecturers_work.Infrastructure.Data.CourseRepository.GetHeader()m
+cC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CourseRepository.cs	" 	(+"0*
+0	 	(*
+1*f
+1	1 	(QR
+P
+	1 	(Q
+%retstring"__id*.
+	1 	(Q" 
+Id,Title,Description,TeacherId*
+2*+
+2	R 	(R"
+	Q 	(R
+
+%retstringB75
+3Lecturers_work.Infrastructure.Data.CourseRepositoryü
+3Lecturers_work.Core.Entities.Course.Description.set]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs	) 	(,"0*√
+0	- 	(-Ω
+∫
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs	) 	(,>%
+#Lecturers_work.Core.Entities.Course"
+Descriptionstring"__id*
+
+valuestring"t
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs	) 	(,
+implicit return:
+valuestringB'%
+#Lecturers_work.Core.Entities.CourseHX`Ã
++Lecturers_work.Core.Entities.User.Email.get[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs (!"0*ë
+0" ("ê
+ç
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs (!
+%retstring"__id*ó
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs (!8*6#
+!Lecturers_work.Core.Entities.User"
+Emailstring"o
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs (!
+
+%retstringB%#
+!Lecturers_work.Core.Entities.UserH`€
+1Lecturers_work.Core.Entities.Course.TeacherId.get]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs
+ 
+(""0*î
+0
+# 
+(#î
+ë
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs
+ 
+("
+%retint"__id*ú
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs
+ 
+(";*9%
+#Lecturers_work.Core.Entities.Course"
+	TeacherIdint"n
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs
+ 
+("
+
+%retintB'%
+#Lecturers_work.Core.Entities.CourseHX`í
+1Lecturers_work.Core.Entities.Course.TeacherId.set]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs
+$ 
+('"0*ª
+0
+( 
+((µ
+≤
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs
+$ 
+('9%
+#Lecturers_work.Core.Entities.Course"
+	TeacherIdint"__id*
+
+valueint"t
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs
+$ 
+('
+implicit return:
+valueintB'%
+#Lecturers_work.Core.Entities.CourseHX`á
++Lecturers_work.Core.Entities.User.Email.set[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs# (&"0*∑
+0' ('≥
+∞
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs# (&6#
+!Lecturers_work.Core.Entities.User"
+Emailstring"__id*
+
+valuestring"r
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs# (&
+implicit return:
+valuestringB%#
+!Lecturers_work.Core.Entities.UserHX`“
+.Lecturers_work.Core.Entities.User.Password.get[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs! ($"0*î
+0% (%ì
+ê
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs! ($
+%retstring"__id*ö
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs! ($;*9#
+!Lecturers_work.Core.Entities.User"
+Passwordstring"o
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs! ($
+
+%retstringB%#
+!Lecturers_work.Core.Entities.UserH`ç
+.Lecturers_work.Core.Entities.User.Password.set[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs& ()"0*∫
+0* (*∂
+≥
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs& ()9#
+!Lecturers_work.Core.Entities.User"
+Passwordstring"__id*
+
+valuestring"r
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs& ()
+implicit return:
+valuestringB%#
+!Lecturers_work.Core.Entities.UserHX`Ñ
+*Lecturers_work.Core.Entities.Record.Id.set]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs ( "0*¥
+0! (!Æ
+´
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs ( 2%
+#Lecturers_work.Core.Entities.Record"	
+Idint"__id*
+
+valueint"t
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs ( 
+implicit return:
+valueintB'%
+#Lecturers_work.Core.Entities.RecordHX`™
+*Lecturers_work.Core.Entities.User.Role.get[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs (""0*Ó
+0# (#Õ
+ 
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs ("-
+%ret%Lecturers_work.Core.Entities.UserRole"__id*µ
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs ("V*T#
+!Lecturers_work.Core.Entities.User"-
+Role%Lecturers_work.Core.Entities.UserRole"é
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs ("/
+-
+%ret%Lecturers_work.Core.Entities.UserRoleB%#
+!Lecturers_work.Core.Entities.UserHX`Õ
+*Lecturers_work.Core.Entities.Record.Id.get]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs ("0*ç
+0 (ç
+ä
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs (
+%retint"__id*ï
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs (4*2%
+#Lecturers_work.Core.Entities.Record"	
+Idint"n
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs (
+
+%retintB'%
+#Lecturers_work.Core.Entities.RecordHX`Ÿ
+0Lecturers_work.Core.Entities.Record.CourseId.get]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs (!"0*ì
+0" ("ì
+ê
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs (!
+%retint"__id*õ
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs (!:*8%
+#Lecturers_work.Core.Entities.Record"
+CourseIdint"n
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs (!
+
+%retintB'%
+#Lecturers_work.Core.Entities.RecordHX`À
+RLecturers_work.Application.Services.StudyService.CreateCourse(string, string, int)j
+`C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\StudyService.cs ( "0*
+0 (*
+1*©
+
+1 (%«
+ƒ
+ (:
+	%capture0-Lecturers_work.Core.Interfaces.IRepository<T>"__id*vt*r2
+0Lecturers_work.Application.Services.StudyService"<
+_courseRepo-Lecturers_work.Core.Interfaces.IRepository<T>\Z
+ ()
+%0#Lecturers_work.Core.Entities.Course"#Lecturers_work.Core.Entities.Courseü
+ú
+ ()
+%1#Lecturers_work.Core.Entities.Course",Lecturers_work.Core.Entities.Course.Course()*7
+ (+
+)
+%0#Lecturers_work.Core.Entities.Courses
+q
+ (0
+	%capture1#Lecturers_work.Core.Entities.Course"__id*-+
+)
+%0#Lecturers_work.Core.Entities.Courseü
+ú
+ (
+%2string"-Lecturers_work.Core.Entities.Course.Title.set*>
+ (2
+0
+	%capture1#Lecturers_work.Core.Entities.Course*
+
+titlestring´
+®
+ ()
+%3string"3Lecturers_work.Core.Entities.Course.Description.set*>
+ (2
+0
+	%capture1#Lecturers_work.Core.Entities.Course*
+
+descriptionstring°
+û
+ (%	
+%4int"1Lecturers_work.Core.Entities.Course.TeacherId.set*>
+ (2
+0
+	%capture1#Lecturers_work.Core.Entities.Course*
+
+	teacherIdint·ﬁ
+ (
+
+%5void"4Lecturers_work.Core.Interfaces.IRepository<T>.Add(T)*H
+ (<
+:
+	%capture0-Lecturers_work.Core.Interfaces.IRepository<T>*>
+ (2
+0
+	%capture1#Lecturers_work.Core.Entities.Course2Add(T)*
+2*.
+2	 (	"
+ (	
+implicit return:
+! (-
+titlestring:!
+/ (A
+descriptionstring:
+C (P
+	teacherIdintB42
+0Lecturers_work.Application.Services.StudyServiceHX‚
+*Lecturers_work.Core.Entities.User.Role.set[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs$ ('"0*Ù
+0( ((
+Ì
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs$ ('T#
+!Lecturers_work.Core.Entities.User"-
+Role%Lecturers_work.Core.Entities.UserRole"__id*20
+.
+value%Lecturers_work.Core.Entities.UserRole"r
+[
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs$ ('
+implicit return:0.
+value%Lecturers_work.Core.Entities.UserRoleB%#
+!Lecturers_work.Core.Entities.UserHX`ê
+0Lecturers_work.Core.Entities.Record.CourseId.set]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs# (&"0*∫
+0' ('¥
+±
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs# (&8%
+#Lecturers_work.Core.Entities.Record"
+CourseIdint"__id*
+
+valueint"t
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs# (&
+implicit return:
+valueintB'%
+#Lecturers_work.Core.Entities.RecordHX`€
+1Lecturers_work.Core.Entities.Record.StudentId.get]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs	 	(""0*î
+0	# 	(#î
+ë
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs	 	("
+%retint"__id*ú
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs	 	(";*9%
+#Lecturers_work.Core.Entities.Record"
+	StudentIdint"n
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs	 	("
+
+%retintB'%
+#Lecturers_work.Core.Entities.RecordHX`”
+-Lecturers_work.Core.Entities.Record.Grade.get]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs
+ 
+("0*ê
+0
+ 
+(ê
+ç
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs
+ 
+(
+%retint"__id*ò
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs
+ 
+(7*5%
+#Lecturers_work.Core.Entities.Record"
+Gradeint"n
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs
+ 
+(
+
+%retintB'%
+#Lecturers_work.Core.Entities.RecordHX`ò
+@Lecturers_work.Application.Services.StudyService.GetAllCourses()j
+`C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\StudyService.cs ()"0*
+0 (*
+1*≠
+1 ('¸˘
+ ('(
+%0"System.Collections.Generic.List<T>"6Lecturers_work.Core.Interfaces.IRepository<T>.GetAll()*Ä
+ (t*r2
+0Lecturers_work.Application.Services.StudyService"<
+_courseRepo-Lecturers_work.Core.Interfaces.IRepository<T>2GetAll()ô
+ñ
+ ('L
+%retDSystem.Collections.Generic.List<Lecturers_work.Core.Entities.Course>"__id*6
+ ('*
+(
+%0"System.Collections.Generic.List<T>*
+2*i
+2 	  (	"Z
+   (	N
+L
+%retDSystem.Collections.Generic.List<Lecturers_work.Core.Entities.Course>B42
+0Lecturers_work.Application.Services.StudyServiceHœ
+
+QLecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.CsvRepositoryBase(string)n
+dC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CsvRepositoryBase.cs (#"0*
+0 (*
+1*©
+1 ('r
+p
+ (	
+
+%0void"object.Object()*G
+ (	;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>|
+z
+ ( P9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>"
+	_filePathstring"__id*
+
+filePathstringü
+ú
+ ('
+
+%1bool"System.IO.File.Exists(string?)* *^
+ (&R*P9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>"
+	_filePathstring*
+2
+3*∑
+2 (P∂≥
+- (8
+%2string"CLecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.GetHeader()*G
+- (6;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>2GetHeader()@
+>
+; (N
+%3string"System.Environment.NewLine.get* \
+Z
+- (N
+%4string"__concat*
+- (8
+
+%2string*
+; (N
+
+%3string…
+∆
+ (O
+
+%5void",System.IO.File.WriteAllText(string, string?)* *^
+" (+R*P9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>"
+	_filePathstring*
+- (N
+
+%4string*
+3*.
+3	 (	"
+ (	
+implicit return:
+$ (3
+filePathstringB;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>Xﬁ
+1Lecturers_work.Core.Entities.Record.IsPresent.get]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs  (#"0*ó
+0$ ($ñ
+ì
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs  (#
+%retbool"__id*ù
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs  (#<*:%
+#Lecturers_work.Core.Entities.Record"
+	IsPresentbool"o
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs  (#
+
+%retboolB'%
+#Lecturers_work.Core.Entities.RecordHX`í
+1Lecturers_work.Core.Entities.Record.StudentId.set]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs	$ 	('"0*ª
+0	( 	((µ
+≤
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs	$ 	('9%
+#Lecturers_work.Core.Entities.Record"
+	StudentIdint"__id*
+
+valueint"t
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs	$ 	('
+implicit return:
+valueintB'%
+#Lecturers_work.Core.Entities.RecordHX`ä
+-Lecturers_work.Core.Entities.Record.Grade.set]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs
+  
+(#"0*∑
+0
+$ 
+($±
+Æ
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs
+  
+(#5%
+#Lecturers_work.Core.Entities.Record"
+Gradeint"__id*
+
+valueint"t
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs
+  
+(#
+implicit return:
+valueintB'%
+#Lecturers_work.Core.Entities.RecordHX`ï
+1Lecturers_work.Core.Entities.Record.IsPresent.set]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs% (("0*Ω
+0) ()∑
+¥
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs% ((:%
+#Lecturers_work.Core.Entities.Record"
+	IsPresentbool"__id*
+
+valuebool"t
+]
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs% ((
+implicit return:
+valueboolB'%
+#Lecturers_work.Core.Entities.RecordHX`Á
+ELecturers_work.Application.Services.AuthService.Login(string, string)i
+_C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\AuthService.cs ("0*
+0 (*
+1*É
+1 (¯ı
+ ()(
+%0"System.Collections.Generic.List<T>"6Lecturers_work.Core.Interfaces.IRepository<T>.GetAll()*}
+ ( q*o1
+/Lecturers_work.Application.Services.AuthService":
+	_userRepo-Lecturers_work.Core.Interfaces.IRepository<T>2GetAll()å
+â
+ (P'
+%1!Lecturers_work.Core.Entities.User"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)* *6
+ ()*
+(
+%0"System.Collections.Generic.List<T>*
+  (O
+	{unknown}j
+h
+ (P)
+user!Lecturers_work.Core.Entities.User"__id*+)
+'
+%1!Lecturers_work.Core.Entities.Userv
+t
+ (
+
+%2bool"	__compare*
+!=*7
+ (+
+)
+user!Lecturers_work.Core.Entities.User*
+ ( *
+2
+3*Æ
+2 (Á
+‰
+ ("'
+%3!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.set*?
+ (31
+/Lecturers_work.Application.Services.AuthService*-+
+)
+user!Lecturers_work.Core.Entities.User0
+.
+ (
+%retbool"__id*
+ ( *
+4*D
+3 (0
+.
+ (
+%retbool"__id*
+ ( *
+4*)
+4	 (	"
+ (	
+
+%retbool:
+ (&
+emailstring:
+( (7
+passwordstringB31
+/Lecturers_work.Application.Services.AuthServiceHX»
+LLecturers_work.Infrastructure.Data.RecordRepository.RecordRepository(string)m
+cC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\RecordRepository.cs ("0*
+0 (*
+1*Ë
+1- (9”
+–
+- (9
+
+%0void"QLecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.CsvRepositoryBase(string)*G
+- (9;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>*
+4 (8
+
+pathstring*
+2*.
+2= (="
+< (=
+implicit return:
+  (+
+pathstringB75
+3Lecturers_work.Infrastructure.Data.RecordRepositoryHX¸!
+Program.Main(string[])P
+FC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Program.cs ("0*
+0 (*
+1*é
+1 (CM
+K
+! (.
+%0System.Text.Encoding"System.Text.Encoding.UTF8.get* q
+o
+ (.
+%1System.Text.Encoding"!System.Console.OutputEncoding.set* *
+
+%0System.Text.Encodingxv
+ (67
+%21Lecturers_work.Infrastructure.Data.UserRepository"1Lecturers_work.Infrastructure.Data.UserRepositoryÚ
+Ô
+ (67
+%31Lecturers_work.Infrastructure.Data.UserRepository"HLecturers_work.Infrastructure.Data.UserRepository.UserRepository(string)*E
+ (69
+7
+%21Lecturers_work.Infrastructure.Data.UserRepository*
+* (5
+	users.csvè
+å
+ (6=
+userRepo1Lecturers_work.Infrastructure.Data.UserRepository"__id*;9
+7
+%21Lecturers_work.Infrastructure.Data.UserRepository|z
+ (<9
+%43Lecturers_work.Infrastructure.Data.CourseRepository"3Lecturers_work.Infrastructure.Data.CourseRepository¸
+˘
+ (<9
+%53Lecturers_work.Infrastructure.Data.CourseRepository"LLecturers_work.Infrastructure.Data.CourseRepository.CourseRepository(string)*G
+ (<;
+9
+%43Lecturers_work.Infrastructure.Data.CourseRepository*
+. (;
+courses.csvï
+í
+ (<A
+
+courseRepo3Lecturers_work.Infrastructure.Data.CourseRepository"__id*=;
+9
+%43Lecturers_work.Infrastructure.Data.CourseRepository|z
+ (<9
+%63Lecturers_work.Infrastructure.Data.RecordRepository"3Lecturers_work.Infrastructure.Data.RecordRepository¸
+˘
+ (<9
+%73Lecturers_work.Infrastructure.Data.RecordRepository"LLecturers_work.Infrastructure.Data.RecordRepository.RecordRepository(string)*G
+ (<;
+9
+%63Lecturers_work.Infrastructure.Data.RecordRepository*
+. (;
+records.csvï
+í
+ (<A
+
+recordRepo3Lecturers_work.Infrastructure.Data.RecordRepository"__id*=;
+9
+%63Lecturers_work.Infrastructure.Data.RecordRepositorytr
+ (35
+%8/Lecturers_work.Application.Services.AuthService"/Lecturers_work.Application.Services.AuthService„
+‡
+ (35
+%9/Lecturers_work.Application.Services.AuthService"äLecturers_work.Application.Services.AuthService.AuthService(Lecturers_work.Core.Interfaces.IRepository<Lecturers_work.Core.Entities.User>)*C
+ (37
+5
+%8/Lecturers_work.Application.Services.AuthService*K
+* (2?
+=
+userRepo1Lecturers_work.Infrastructure.Data.UserRepositoryé
+ã
+ (3>
+authService/Lecturers_work.Application.Services.AuthService"__id*97
+5
+%8/Lecturers_work.Application.Services.AuthServicewu
+ (C7
+%100Lecturers_work.Application.Services.StudyService"0Lecturers_work.Application.Services.StudyServiceë
+é
+ (C7
+%110Lecturers_work.Application.Services.StudyService"ﬂLecturers_work.Application.Services.StudyService.StudyService(Lecturers_work.Core.Interfaces.IRepository<Lecturers_work.Core.Entities.Course>, Lecturers_work.Core.Interfaces.IRepository<Lecturers_work.Core.Entities.Record>)*E
+ (C9
+7
+%100Lecturers_work.Application.Services.StudyService*O
+, (6C
+A
+
+courseRepo3Lecturers_work.Infrastructure.Data.CourseRepository*O
+8 (BC
+A
+
+recordRepo3Lecturers_work.Infrastructure.Data.RecordRepositoryí
+è
+ (C@
+studyService0Lecturers_work.Application.Services.StudyService"__id*;9
+7
+%100Lecturers_work.Application.Services.StudyService*
+2*
+2 (*
+3
+6*÷
+3 (/∆
+√
+ ('(
+%12!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.get*L
+ (@
+>
+authService/Lecturers_work.Application.Services.AuthServicev
+t
+ (/
+%13bool"	__compare*
+==*6
+ ('*
+(
+%12!Lecturers_work.Core.Entities.User*
++ (/ *
+4
+5*À
+4 (+∂
+≥
+ (*
+%14void"FProgram.ShowLoginMenu(Lecturers_work.Application.Services.AuthService)* *L
+ ()@
+>
+authService/Lecturers_work.Application.Services.AuthService*
+2*Ã
+5" "(8∑
+¥
+" "(7
+%15void"wProgram.ShowMainMenu(Lecturers_work.Application.Services.AuthService, Lecturers_work.Application.Services.StudyService)* *L
+" "((@
+>
+authService/Lecturers_work.Application.Services.AuthService*N
+"* "(6B
+@
+studyService0Lecturers_work.Application.Services.StudyService*
+2*.
+6% %("
+% %(
+implicit return:
+ ("
+argsstring[]B"	
+ProgramXú
+?Lecturers_work.Infrastructure.Data.RecordRepository.GetHeader()m
+cC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\RecordRepository.cs	" 	(+"0*
+0	 	(*
+1*m
+1	1 	(XY
+W
+	1 	(X
+%retstring"__id*5
+	1 	(X)'
+%Id,CourseId,StudentId,Grade,IsPresent*
+2*+
+2	Y 	(Y"
+	X 	(Y
+
+%retstringB75
+3Lecturers_work.Infrastructure.Data.RecordRepository”
+wLecturers_work.Application.Services.AuthService.Register(string, string, string, Lecturers_work.Core.Entities.UserRole)i
+_C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\AuthService.cs ("0*
+0 (*
+1*ÿ
+1  %(ƒ
+¡
+   (:
+	%capture0-Lecturers_work.Core.Interfaces.IRepository<T>"__id*sq*o1
+/Lecturers_work.Application.Services.AuthService":
+	_userRepo-Lecturers_work.Core.Interfaces.IRepository<T>XV
+  &('
+%0!Lecturers_work.Core.Entities.User"!Lecturers_work.Core.Entities.Useró
+î
+  &('
+%1!Lecturers_work.Core.Entities.User"(Lecturers_work.Core.Entities.User.User()*5
+  &()
+'
+%0!Lecturers_work.Core.Entities.Usero
+m
+  &(.
+	%capture1!Lecturers_work.Core.Entities.User"__id*+)
+'
+%0!Lecturers_work.Core.Entities.Userô
+ñ
+" "(
+%2string"*Lecturers_work.Core.Entities.User.Name.set*<
+  &(0
+.
+	%capture1!Lecturers_work.Core.Entities.User*
+
+namestringõ
+ò
+# #(
+%3string"+Lecturers_work.Core.Entities.User.Email.set*<
+  &(0
+.
+	%capture1!Lecturers_work.Core.Entities.User*
+
+emailstring°
+û
+$ $(#
+%4string".Lecturers_work.Core.Entities.User.Password.set*<
+  &(0
+.
+	%capture1!Lecturers_work.Core.Entities.User*
+
+passwordstring◊
+‘
+% %(+
+%5%Lecturers_work.Core.Entities.UserRole"*Lecturers_work.Core.Entities.User.Role.set*<
+  &(0
+.
+	%capture1!Lecturers_work.Core.Entities.User*1/
+-
+role%Lecturers_work.Core.Entities.UserRoleﬂ‹
+  &(
+
+%6void"4Lecturers_work.Core.Interfaces.IRepository<T>.Add(T)*H
+   (<
+:
+	%capture0-Lecturers_work.Core.Interfaces.IRepository<T>*<
+  &(0
+.
+	%capture1!Lecturers_work.Core.Entities.User2Add(T)*
+2*.
+2'	 '(	"
+' '(	
+implicit return:
+ ((
+namestring:
+* (6
+emailstring:
+8 (G
+passwordstring:9
+I (V-
+role%Lecturers_work.Core.Entities.UserRoleB31
+/Lecturers_work.Application.Services.AuthServiceHX˚
+8Lecturers_work.Application.Services.AuthService.Logout()i
+_C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\AuthService.cs) )("0*
+0) )(*
+1*”
+1+ +(æ
+ª
++ +('
+%0!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.set*?
++ +(31
+/Lecturers_work.Application.Services.AuthService* *
+2*.
+2,	 ,(	"
+, ,(	
+implicit returnB31
+/Lecturers_work.Application.Services.AuthServiceHX•
+
+ILecturers_work.Application.Services.StudyService.GetCoursesByTeacher(int)j
+`C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\StudyService.cs" "(/"0*
+0" "(*
+1*ì
+1$ $(U¸˘
+$ $('(
+%0"System.Collections.Generic.List<T>"6Lecturers_work.Core.Interfaces.IRepository<T>.GetAll()*Ä
+$ $(t*r2
+0Lecturers_work.Application.Services.StudyService"<
+_courseRepo-Lecturers_work.Core.Interfaces.IRepository<T>2GetAll()ã
+à
+$ $(L/
+%1)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)* *6
+$ $('*
+(
+%0"System.Collections.Generic.List<T>*
+$. $(K
+	{unknown}’
+“
+$ $(U(
+%2"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)* *=
+$ $(L1
+/
+%1)System.Collections.Generic.IEnumerable<T>ô
+ñ
+$ $(UL
+%retDSystem.Collections.Generic.List<Lecturers_work.Core.Entities.Course>"__id*6
+$ $(U*
+(
+%2"System.Collections.Generic.List<T>*
+2*i
+2%	 %(	"Z
+% %(	N
+L
+%retDSystem.Collections.Generic.List<Lecturers_work.Core.Entities.Course>:
+"0 "(=
+	teacherIdintB42
+0Lecturers_work.Application.Services.StudyServiceH¥	
+^Lecturers_work.Infrastructure.Data.CourseRepository.ToCsv(Lecturers_work.Core.Entities.Course)m
+cC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CourseRepository.cs" ('"0*
+0 (*
+1*Ø
+1 (={
+y
+ (	
+%0int"*Lecturers_work.Core.Entities.Course.Id.get*6
+ (*
+(
+c#Lecturers_work.Core.Entities.CourseÅ
+
+ (
+%1string"-Lecturers_work.Core.Entities.Course.Title.get*6
+ (*
+(
+c#Lecturers_work.Core.Entities.Courseà
+Ö
+  (-
+%2string"3Lecturers_work.Core.Entities.Course.Description.get*6
+  (!*
+(
+c#Lecturers_work.Core.Entities.CourseÉ
+Ä
+0 (;	
+%3int"1Lecturers_work.Core.Entities.Course.TeacherId.get*6
+0 (1*
+(
+c#Lecturers_work.Core.Entities.Course»
+≈
+ (=
+%4string"__concat*
+ (
+	
+%0int*
+ (
+,*
+ (
+
+%1string*
+ (
+,*
+ (.
+
+%2string*
+. (/
+,*
+/ (<
+	
+%3int>
+<
+ (=
+%retstring"__id*
+ (=
+
+%4string*
+2*+
+2> (>"
+= (>
+
+%retstring:4
+( (0(
+c#Lecturers_work.Core.Entities.CourseB75
+3Lecturers_work.Infrastructure.Data.CourseRepository◊
+
+^Lecturers_work.Infrastructure.Data.RecordRepository.ToCsv(Lecturers_work.Core.Entities.Record)m
+cC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\RecordRepository.cs" ('"0*
+0 (*
+1*“
+1 (H{
+y
+ (	
+%0int"*Lecturers_work.Core.Entities.Record.Id.get*6
+ (*
+(
+r#Lecturers_work.Core.Entities.RecordÅ
+
+ ( 	
+%1int"0Lecturers_work.Core.Entities.Record.CourseId.get*6
+ (*
+(
+r#Lecturers_work.Core.Entities.RecordÉ
+Ä
+# (.	
+%2int"1Lecturers_work.Core.Entities.Record.StudentId.get*6
+# ($*
+(
+r#Lecturers_work.Core.Entities.Record~
+|
+1 (8	
+%3int"-Lecturers_work.Core.Entities.Record.Grade.get*6
+1 (2*
+(
+r#Lecturers_work.Core.Entities.RecordÑ
+Å
+; (F
+
+%4bool"1Lecturers_work.Core.Entities.Record.IsPresent.get*6
+; (<*
+(
+r#Lecturers_work.Core.Entities.RecordÔ
+Ï
+ (H
+%5string"__concat*
+ (
+	
+%0int*
+ (
+,*
+ (!
+	
+%1int*
+! ("
+,*
+" (/
+	
+%2int*
+/ (0
+,*
+0 (9
+	
+%3int*
+9 (:
+,*
+: (G
+
+
+%4bool>
+<
+ (H
+%retstring"__id*
+ (H
+
+%5string*
+2*+
+2I (I"
+H (I
+
+%retstring:4
+( (0(
+r#Lecturers_work.Core.Entities.RecordB75
+3Lecturers_work.Infrastructure.Data.RecordRepositoryÅ
+ZLecturers_work.Infrastructure.Data.UserRepository.ToCsv(Lecturers_work.Core.Entities.User)k
+aC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\UserRepository.cs" ('"0*
+0 (*
+1*Ü
+1 (Cw
+u
+ (	
+%0int"(Lecturers_work.Core.Entities.User.Id.get*4
+ ((
+&
+u!Lecturers_work.Core.Entities.User|
+z
+ (
+%1string"*Lecturers_work.Core.Entities.User.Name.get*4
+ ((
+&
+u!Lecturers_work.Core.Entities.User}
+{
+ (&
+%2string"+Lecturers_work.Core.Entities.User.Email.get*4
+ ( (
+&
+u!Lecturers_work.Core.Entities.UserÄ
+~
+) (3
+%3string".Lecturers_work.Core.Entities.User.Password.get*4
+) (*(
+&
+u!Lecturers_work.Core.Entities.Userú
+ô
+; (A+
+%4%Lecturers_work.Core.Entities.UserRole"*Lecturers_work.Core.Entities.User.Role.get*4
+; (<(
+&
+u!Lecturers_work.Core.Entities.Userô
+ñ
+ (C
+%5string"__concat*
+ (
+	
+%0int*
+ (
+,*
+ (
+
+%1string*
+ (
+,*
+ ('
+
+%2string*
+' ((
+,*
+( (4
+
+%3string*
+4 (5
+,*9
+5 (B-
++
+%4%Lecturers_work.Core.Entities.UserRole>
+<
+ (C
+%retstring"__id*
+ (C
+
+%5string*
+2*+
+2D (D"
+C (D
+
+%retstring:2
+( (.&
+u!Lecturers_work.Core.Entities.UserB53
+1Lecturers_work.Infrastructure.Data.UserRepositoryè
+ALecturers_work.Infrastructure.Data.UserRepository.FromCsv(string)k
+aC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\UserRepository.cs  ('"0*
+0 (*
+1*Ÿ
+1 (#ç
+ä
+ (#
+%0string[]"-string.Split(char, System.StringSplitOptions)*
+ (
+
+linestring*
+ ("
+,*
+ (#2 5
+3
+ (#
+pstring[]"__id*
+
+%0string[]*
+2*Œ
+2 (0XV
+ ('
+%1!Lecturers_work.Core.Entities.User"!Lecturers_work.Core.Entities.Useró
+î
+ ('
+%2!Lecturers_work.Core.Entities.User"(Lecturers_work.Core.Entities.User.User()*5
+ ()
+'
+%1!Lecturers_work.Core.Entities.Usero
+m
+ (.
+	%capture0!Lecturers_work.Core.Entities.User"__id*+)
+'
+%1!Lecturers_work.Core.Entities.UserÄ
+~
+ (#
+%3string"7System.Collections.Generic.ICollection<T>.this[int].get*
+ ( 
+
+pstring[]*
+! ("2 L
+J
+ ($	
+%4int"int.Parse(string)* *
+ (#
+
+%3stringè
+å
+ ($	
+%5int"(Lecturers_work.Core.Entities.User.Id.set*<
+ (0
+.
+	%capture0!Lecturers_work.Core.Entities.User*
+	
+%4intÉ
+Ä
+ (
+%6string"7System.Collections.Generic.ICollection<T>.this[int].get*
+ (
+
+pstring[]*
+ (2ó
+î
+ (
+%7string"*Lecturers_work.Core.Entities.User.Name.set*<
+ (0
+.
+	%capture0!Lecturers_work.Core.Entities.User*
+
+%6stringÉ
+Ä
+ (
+%8string"7System.Collections.Generic.ICollection<T>.this[int].get*
+ (
+
+pstring[]*
+ (2ò
+ï
+ (
+%9string"+Lecturers_work.Core.Entities.User.Email.set*<
+ (0
+.
+	%capture0!Lecturers_work.Core.Entities.User*
+
+%8stringÑ
+Å
+ (
+%10string"7System.Collections.Generic.ICollection<T>.this[int].get*
+ (
+
+pstring[]*
+ (2ù
+ö
+ (
+%11string".Lecturers_work.Core.Entities.User.Password.set*<
+ (0
+.
+	%capture0!Lecturers_work.Core.Entities.User*
+
+%10stringÑ
+Å
++ (/
+%12string"7System.Collections.Generic.ICollection<T>.this[int].get*
++ (,
+
+pstring[]*
+- (.2N
+L
+! (0
+
+%13int"int.Parse(string)* *
++ (/
+
+%12stringµ
+≤
+ (0,
+%14%Lecturers_work.Core.Entities.UserRole"*Lecturers_work.Core.Entities.User.Role.set*<
+ (0
+.
+	%capture0!Lecturers_work.Core.Entities.User*
+
+
+%13int{
+y
+ ()
+%ret!Lecturers_work.Core.Entities.User"__id*<
+ (0
+.
+	%capture0!Lecturers_work.Core.Entities.User*
+3*F
+3	 (	"7
+ (	+
+)
+%ret!Lecturers_work.Core.Entities.User:
+( (3
+linestringB53
+1Lecturers_work.Infrastructure.Data.UserRepository˛
+CLecturers_work.Infrastructure.Data.CourseRepository.FromCsv(string)m
+cC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CourseRepository.cs" ()"0*
+0 (*
+1*Ÿ
+1 (#ç
+ä
+ (#
+%0string[]"-string.Split(char, System.StringSplitOptions)*
+ (
+
+linestring*
+ ("
+,*
+ (#2 5
+3
+ (#
+pstring[]"__id*
+
+%0string[]*
+2*µ
+2 (+\Z
+ ()
+%1#Lecturers_work.Core.Entities.Course"#Lecturers_work.Core.Entities.Courseü
+ú
+ ()
+%2#Lecturers_work.Core.Entities.Course",Lecturers_work.Core.Entities.Course.Course()*7
+ (+
+)
+%1#Lecturers_work.Core.Entities.Courses
+q
+ (0
+	%capture0#Lecturers_work.Core.Entities.Course"__id*-+
+)
+%1#Lecturers_work.Core.Entities.CourseÄ
+~
+ (#
+%3string"7System.Collections.Generic.ICollection<T>.this[int].get*
+ ( 
+
+pstring[]*
+! ("2 L
+J
+ ($	
+%4int"int.Parse(string)* *
+ (#
+
+%3stringì
+ê
+ ($	
+%5int"*Lecturers_work.Core.Entities.Course.Id.set*>
+ (2
+0
+	%capture0#Lecturers_work.Core.Entities.Course*
+	
+%4intÉ
+Ä
+ (
+%6string"7System.Collections.Generic.ICollection<T>.this[int].get*
+ (
+
+pstring[]*
+ (2ú
+ô
+ (
+%7string"-Lecturers_work.Core.Entities.Course.Title.set*>
+ (2
+0
+	%capture0#Lecturers_work.Core.Entities.Course*
+
+%6stringÉ
+Ä
+ ("
+%8string"7System.Collections.Generic.ICollection<T>.this[int].get*
+ (
+
+pstring[]*
+  (!2¢
+ü
+ ("
+%9string"3Lecturers_work.Core.Entities.Course.Description.set*>
+ (2
+0
+	%capture0#Lecturers_work.Core.Entities.Course*
+
+%8stringÑ
+Å
+& (*
+%10string"7System.Collections.Generic.ICollection<T>.this[int].get*
+& ('
+
+pstring[]*
+( ()2N
+L
+ (+
+
+%11int"int.Parse(string)* *
+& (*
+
+%10stringú
+ô
+ (+
+
+%12int"1Lecturers_work.Core.Entities.Course.TeacherId.set*>
+ (2
+0
+	%capture0#Lecturers_work.Core.Entities.Course*
+
+
+%11int
+}
+ (+
+%ret#Lecturers_work.Core.Entities.Course"__id*>
+ (2
+0
+	%capture0#Lecturers_work.Core.Entities.Course*
+3*H
+3	 (	"9
+ (	-
++
+%ret#Lecturers_work.Core.Entities.Course:
+* (5
+linestringB75
+3Lecturers_work.Infrastructure.Data.CourseRepository©
+RLecturers_work.Application.Services.StudyService.GradeStudent(int, int, int, bool)j
+`C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\StudyService.cs' '( "0*
+0' '(*
+1*•
+1) ,(&¸˘
+)! )(5(
+%0"System.Collections.Generic.List<T>"6Lecturers_work.Core.Interfaces.IRepository<T>.GetAll()*Ä
+)! )(,t*r2
+0Lecturers_work.Application.Services.StudyService"<
+_recordRepo-Lecturers_work.Core.Interfaces.IRepository<T>2GetAll()é
+ã
+)! *(X)
+%1#Lecturers_work.Core.Entities.Record"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)* *6
+)! )(5*
+(
+%0"System.Collections.Generic.List<T>*
+*  *(W
+	{unknown}x
+v
+) *(X5
+existingRecord#Lecturers_work.Core.Entities.Record"__id*-+
+)
+%1#Lecturers_work.Core.Entities.RecordÉ
+Ä
+, ,(&
+
+%2bool"	__compare*
+!=*C
+, ,(7
+5
+existingRecord#Lecturers_work.Core.Entities.Record*
+," ,(& *
+2
+3*Ü
+2. 0(3û
+õ
+. .(,	
+%3int"-Lecturers_work.Core.Entities.Record.Grade.set*C
+. .(7
+5
+existingRecord#Lecturers_work.Core.Entities.Record*
+
+gradeint®
+•
+/ /(4
+
+%4bool"1Lecturers_work.Core.Entities.Record.IsPresent.set*C
+/ /(7
+5
+existingRecord#Lecturers_work.Core.Entities.Record*
+
+	isPresentbool•¢
+0 0(2
+
+%5void"7Lecturers_work.Core.Interfaces.IRepository<T>.Update(T)*Ä
+0 0(t*r2
+0Lecturers_work.Application.Services.StudyService"<
+_recordRepo-Lecturers_work.Core.Interfaces.IRepository<T>*C
+0# 0(17
+5
+existingRecord#Lecturers_work.Core.Entities.Record2	Update(T)*
+4*¿
+34 9()«
+ƒ
+4 4(:
+	%capture0-Lecturers_work.Core.Interfaces.IRepository<T>"__id*vt*r2
+0Lecturers_work.Application.Services.StudyService"<
+_recordRepo-Lecturers_work.Core.Interfaces.IRepository<T>\Z
+4  :()
+%6#Lecturers_work.Core.Entities.Record"#Lecturers_work.Core.Entities.Recordü
+ú
+4  :()
+%7#Lecturers_work.Core.Entities.Record",Lecturers_work.Core.Entities.Record.Record()*7
+4  :(+
+)
+%6#Lecturers_work.Core.Entities.Records
+q
+4  :(0
+	%capture1#Lecturers_work.Core.Entities.Record"__id*-+
+)
+%6#Lecturers_work.Core.Entities.Recordü
+ú
+6 6('	
+%8int"0Lecturers_work.Core.Entities.Record.CourseId.set*>
+4  :(2
+0
+	%capture1#Lecturers_work.Core.Entities.Record*
+
+courseIdint°
+û
+7 7()	
+%9int"1Lecturers_work.Core.Entities.Record.StudentId.set*>
+4  :(2
+0
+	%capture1#Lecturers_work.Core.Entities.Record*
+
+	studentIdintö
+ó
+8 8(!
+
+%10int"-Lecturers_work.Core.Entities.Record.Grade.set*>
+4  :(2
+0
+	%capture1#Lecturers_work.Core.Entities.Record*
+
+gradeint§
+°
+9 9()
+%11bool"1Lecturers_work.Core.Entities.Record.IsPresent.set*>
+4  :(2
+0
+	%capture1#Lecturers_work.Core.Entities.Record*
+
+	isPresentbool‚ﬂ
+4 :(
+%12void"4Lecturers_work.Core.Interfaces.IRepository<T>.Add(T)*H
+4 4(<
+:
+	%capture0-Lecturers_work.Core.Interfaces.IRepository<T>*>
+4  :(2
+0
+	%capture1#Lecturers_work.Core.Entities.Record2Add(T)*
+4*.
+4<	 <(	"
+< <(	
+implicit return:
+'! '(-
+courseIdint:
+'/ '(<
+	studentIdint:
+'> '(G
+gradeint:
+'I '(W
+	isPresentboolB42
+0Lecturers_work.Application.Services.StudyServiceHX¿
+@Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.GetAll()n
+dC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CsvRepositoryBase.cs ("0*
+0 (*
+1*∑
+1 ('ü
+ú
+ ('
+
+%0bool"System.IO.File.Exists(string?)* *^
+ (&R*P9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>"
+	_filePathstring*
+2
+3*É
+20 (=ZX
+0 (=(
+%1"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>ö
+ó
+0 (=(
+%2"System.Collections.Generic.List<T>")System.Collections.Generic.List<T>.List()*6
+0 (=*
+(
+%1"System.Collections.Generic.List<T>v
+t
+0 (=*
+%ret"System.Collections.Generic.List<T>"__id*6
+0 (=*
+(
+%1"System.Collections.Generic.List<T>*
+4*¨
+3 &(®
+•
+ (/
+%3string[]"#System.IO.File.ReadAllLines(string)* *^
+% (.R*P9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>"
+	_filePathstring–
+Õ
+ (/
+%4)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Skip<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)* *
+ (/
+
+%3string[]*
+ (2í
+è
+  (:/
+%5)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)* *=
+ (1
+/
+%4)System.Collections.Generic.IEnumerable<T>*
+   (9
+	{unknown}ü
+ú
+ $(/
+%6)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)* *=
+  (:1
+/
+%5)System.Collections.Generic.IEnumerable<T>*
+! $(
+	{unknown}í
+è
+ %(&/
+%7)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)* *=
+ $(1
+/
+%6)System.Collections.Generic.IEnumerable<T>*
+% %(%
+	{unknown}’
+“
+ &((
+%8"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)* *=
+ %(&1
+/
+%7)System.Collections.Generic.IEnumerable<T>v
+t
+ &(*
+%ret"System.Collections.Generic.List<T>"__id*6
+ &(*
+(
+%8"System.Collections.Generic.List<T>*
+4*G
+4'	 '(	"8
+' '(	,
+*
+%ret"System.Collections.Generic.List<T>B;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>H 
+DLecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.GetById(int)n
+dC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CsvRepositoryBase.cs) )("0*
+0) )(*
+1*¸
+1+ +(;¬
+ø
++ +((
+%0"System.Collections.Generic.List<T>"@Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.GetAll()*G
++ +(;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>Ï
+È
++ +(;
+%1T"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)* *6
++ +(*
+(
+%0"System.Collections.Generic.List<T>*
+++ +(:
+	{unknown}4
+2
++ +(;	
+%retT"__id*
++ +(;	
+
+%1T*
+2*&
+2,	 ,(	"
+, ,(	
+	
+%retT:
+) )(	
+idintB;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>Hà
+CLecturers_work.Infrastructure.Data.RecordRepository.FromCsv(string)m
+cC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\RecordRepository.cs" ()"0*
+0 (*
+1*Ÿ
+1 (#ç
+ä
+ (#
+%0string[]"-string.Split(char, System.StringSplitOptions)*
+ (
+
+linestring*
+ ("
+,*
+ (#2 5
+3
+ (#
+pstring[]"__id*
+
+%0string[]*
+2*ø
+2 (,\Z
+ ()
+%1#Lecturers_work.Core.Entities.Record"#Lecturers_work.Core.Entities.Recordü
+ú
+ ()
+%2#Lecturers_work.Core.Entities.Record",Lecturers_work.Core.Entities.Record.Record()*7
+ (+
+)
+%1#Lecturers_work.Core.Entities.Records
+q
+ (0
+	%capture0#Lecturers_work.Core.Entities.Record"__id*-+
+)
+%1#Lecturers_work.Core.Entities.RecordÄ
+~
+ (#
+%3string"7System.Collections.Generic.ICollection<T>.this[int].get*
+ ( 
+
+pstring[]*
+! ("2 L
+J
+ ($	
+%4int"int.Parse(string)* *
+ (#
+
+%3stringì
+ê
+ ($	
+%5int"*Lecturers_work.Core.Entities.Record.Id.set*>
+ (2
+0
+	%capture0#Lecturers_work.Core.Entities.Record*
+	
+%4intÉ
+Ä
+% ()
+%6string"7System.Collections.Generic.ICollection<T>.this[int].get*
+% (&
+
+pstring[]*
+' ((2L
+J
+ (*	
+%7int"int.Parse(string)* *
+% ()
+
+%6stringô
+ñ
+ (*	
+%8int"0Lecturers_work.Core.Entities.Record.CourseId.set*>
+ (2
+0
+	%capture0#Lecturers_work.Core.Entities.Record*
+	
+%7intÉ
+Ä
+& (*
+%9string"7System.Collections.Generic.ICollection<T>.this[int].get*
+& ('
+
+pstring[]*
+( ()2M
+K
+ (+
+
+%10int"int.Parse(string)* *
+& (*
+
+%9stringú
+ô
+ (+
+
+%11int"1Lecturers_work.Core.Entities.Record.StudentId.set*>
+ (2
+0
+	%capture0#Lecturers_work.Core.Entities.Record*
+
+
+%10intÑ
+Å
+" (&
+%12string"7System.Collections.Generic.ICollection<T>.this[int].get*
+" (#
+
+pstring[]*
+$ (%2N
+L
+ ('
+
+%13int"int.Parse(string)* *
+" (&
+
+%12stringò
+ï
+ ('
+
+%14int"-Lecturers_work.Core.Entities.Record.Grade.set*>
+ (2
+0
+	%capture0#Lecturers_work.Core.Entities.Record*
+
+
+%13intÑ
+Å
+' (+
+%15string"7System.Collections.Generic.ICollection<T>.this[int].get*
+' ((
+
+pstring[]*
+) (*2P
+N
+ (,
+%16bool"bool.Parse(string)* *
+' (+
+
+%15stringû
+õ
+ (,
+%17bool"1Lecturers_work.Core.Entities.Record.IsPresent.set*>
+ (2
+0
+	%capture0#Lecturers_work.Core.Entities.Record*
+
+%16bool
+}
+ (+
+%ret#Lecturers_work.Core.Entities.Record"__id*>
+ (2
+0
+	%capture0#Lecturers_work.Core.Entities.Record*
+3*H
+3	 (	"9
+ (	-
++
+%ret#Lecturers_work.Core.Entities.Record:
+* (5
+linestringB75
+3Lecturers_work.Infrastructure.Data.RecordRepositoryƒ
+>Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.Add(T)n
+dC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CsvRepositoryBase.cs. .("0*
+0. .(*
+1*ƒ
+10 0(¬
+ø
+0 0((
+%0"System.Collections.Generic.List<T>"@Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.GetAll()*G
+0 0(;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>k
+i
+0 0()
+all"System.Collections.Generic.List<T>"__id*,*
+(
+%0"System.Collections.Generic.List<T>*
+2*Ê
+21 1(!ig
+1 1(	
+%1int"-Lecturers_work.Core.Interfaces.IEntity.Id.get*
+1 1(
+
+entityT2Id.get3
+1
+1 1(
+	%capture0int"__id*
+	
+%1intÆ
+´
+1 1(!
+
+%2bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)* *7
+1 1(+
+)
+all"System.Collections.Generic.List<T>*
+3
+4*ò
+31$ 1(:„
+‡
+1$ 1(6	
+%3int"oSystem.Linq.Enumerable.Max<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, int>)* *7
+1$ 1('+
+)
+all"System.Collections.Generic.List<T>*
+1, 1(5
+	{unknown}i
+g
+1$ 1(:	
+%4int"%!binary_implicit_operator_passthrough*
+1$ 1(6
+	
+%3int*
+19 1(:23
+1
+1$ 1(:
+	%capture1int"__id*
+	
+%4int*
+5*@
+41= 1(>,
+*
+1= 1(>
+	%capture1int"__id*2*
+5*ì
+51 1(?}
+1 1(>	
+%5int"-Lecturers_work.Core.Interfaces.IEntity.Id.set*
+1 1(
+
+entityT*
+
+	%capture1int2Id.set*
+6*Õ
+62 2(OÀ»
+2* 2(7
+%6string"@Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.ToCsv(T)*G
+2* 2(/;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>*
+20 2(6
+
+entityT2ToCsv(T)@
+>
+2: 2(M
+%7string"System.Environment.NewLine.get* \
+Z
+2* 2(M
+%8string"__concat*
+2* 2(7
+
+%6string*
+2: 2(M
+
+%7string 
+«
+2 2(N
+
+%9void"-System.IO.File.AppendAllText(string, string?)* *^
+2 2((R*P9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>"
+	_filePathstring*
+2* 2(M
+
+%8string*
+7*.
+73	 3(	"
+3 3(	
+implicit return:
+. .( 
+entityTB;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>HX¬
+ALecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.Update(T)n
+dC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CsvRepositoryBase.cs5 5("0*
+05 5(*
+1*ó
+17 9(¬
+ø
+7 7((
+%0"System.Collections.Generic.List<T>"@Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.GetAll()*G
+7 7(;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>k
+i
+7 7()
+all"System.Collections.Generic.List<T>"__id*,*
+(
+%0"System.Collections.Generic.List<T>∂
+≥
+8 8(=	
+%1int"HSystem.Collections.Generic.ICollection<T>.FindIndex(System.Predicate<T>)*7
+8 8(+
+)
+all"System.Collections.Generic.List<T>*
+8& 8(<
+	{unknown}/
+-
+8 8(=
+indexint"__id*
+	
+%1intd
+b
+9 9(
+
+%2bool"	__compare*
+!=*
+9 9(
+
+indexint*
+9 9(2ˇˇˇˇˇˇˇˇˇ*
+2
+3*—
+2; <(!µ
+≤
+; ;(#
+%3T"7System.Collections.Generic.ICollection<T>.this[int].set*7
+; ;(+
+)
+all"System.Collections.Generic.List<T>*
+; ;(
+
+indexint*
+
+entityTÑ
+Å
+< <( 
+
+%4void"gLecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.SaveChanges(System.Collections.Generic.List<T>)*G
+< <(;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>*7
+< <(+
+)
+all"System.Collections.Generic.List<T>*
+3*.
+3>	 >(	"
+> >(	
+implicit return:
+5 5(#
+entityTB;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>HX€
+CLecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.Delete(int)n
+dC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CsvRepositoryBase.cs@ @("0*
+0@ @(*
+1*Ñ
+1B D(¬
+ø
+B B((
+%0"System.Collections.Generic.List<T>"@Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.GetAll()*G
+B B(;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>k
+i
+B B()
+all"System.Collections.Generic.List<T>"__id*,*
+(
+%0"System.Collections.Generic.List<T>∂
+≥
+C C(*	
+%1int"HSystem.Collections.Generic.ICollection<T>.RemoveAll(System.Predicate<T>)*7
+C C(+
+)
+all"System.Collections.Generic.List<T>*
+C C()
+	{unknown}Ñ
+Å
+D D(
+
+%2void"gLecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.SaveChanges(System.Collections.Generic.List<T>)*G
+D D(;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>*7
+D D(+
+)
+all"System.Collections.Generic.List<T>*
+2*.
+2E	 E(	"
+E E(	
+implicit return:
+@ @(!	
+idintB;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>HXÌ
+LLecturers_work.Application.Services.StudyService.GetStudentAverageGrade(int)j
+`C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\StudyService.cs> >(,"0*
+0> >(*
+1*Ë
+1@ @(\¸˘
+@ @(.(
+%0"System.Collections.Generic.List<T>"6Lecturers_work.Core.Interfaces.IRepository<T>.GetAll()*Ä
+@ @(%t*r2
+0Lecturers_work.Application.Services.StudyService"<
+_recordRepo-Lecturers_work.Core.Interfaces.IRepository<T>2GetAll()ã
+à
+@ @(S/
+%1)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)* *6
+@ @(.*
+(
+%0"System.Collections.Generic.List<T>*
+@5 @(R
+	{unknown}’
+“
+@ @(\(
+%2"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)* *=
+@ @(S1
+/
+%1)System.Collections.Generic.IEnumerable<T>o
+m
+@ @(\-
+records"System.Collections.Generic.List<T>"__id*,*
+(
+%2"System.Collections.Generic.List<T>*
+2* 
+2A A( ≤
+Ø
+A A( 
+
+%3bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)* *;
+A A(/
+-
+records"System.Collections.Generic.List<T>*
+3
+4*æ
+3A# A(@Ó
+Î
+A# A(@
+%4double"sSystem.Linq.Enumerable.Average<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, int>)* *;
+A# A(*/
+-
+records"System.Collections.Generic.List<T>*
+A3 A(?
+	{unknown}9
+7
+A# A(@
+	%capture0double"__id*
+
+%4double*
+5*A
+4AC A(D-
++
+AC A(D
+	%capture0double"__id* *
+5*Y
+5A A(DE
+C
+A A(D
+%retdouble"__id*!
+A A(D
+
+	%capture0double*
+6*+
+6B	 B(	"
+B B(	
+
+%retdouble:
+>- >(:
+	studentIdintB42
+0Lecturers_work.Application.Services.StudyServiceHX¨
+gLecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.SaveChanges(System.Collections.Generic.List<T>)n
+dC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CsvRepositoryBase.csG G( "0*
+0G G(*
+1*÷
+1I I(6ZX
+I I(8(
+%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>ö
+ó
+I I(8(
+%1"System.Collections.Generic.List<T>")System.Collections.Generic.List<T>.List()*6
+I I(8*
+(
+%0"System.Collections.Generic.List<T>q
+o
+I I(8/
+	%capture0"System.Collections.Generic.List<T>"__id*,*
+(
+%0"System.Collections.Generic.List<T>∂≥
+I+ I(6
+%2string"CLecturers_work.Infrastructure.Data.CsvRepositoryBase<T>.GetHeader()*G
+I+ I(4;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>2GetHeader()¶
+£
+I+ I(6
+
+%3void"0System.Collections.Generic.ICollection<T>.Add(T)*=
+I I(81
+/
+	%capture0"System.Collections.Generic.List<T>*
+I+ I(6
+
+%2stringt
+r
+I I(8+
+lines"System.Collections.Generic.List<T>"__id*31
+/
+	%capture0"System.Collections.Generic.List<T>*
+2*∏
+2J K(1õ
+ò
+J J(./
+%4)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)* *9
+J J( -
++
+items"System.Collections.Generic.List<T>*
+J( J(-
+	{unknown}Ú
+Ô
+J J(/
+
+%5void"]System.Collections.Generic.ICollection<T>.AddRange(System.Collections.Generic.IEnumerable<T>)*9
+J J(-
++
+lines"System.Collections.Generic.List<T>*=
+J J(.1
+/
+%4)System.Collections.Generic.IEnumerable<T>ê
+ç
+K K(0
+
+%6void"TSystem.IO.File.WriteAllLines(string, System.Collections.Generic.IEnumerable<string>)* *^
+K K((R*P9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>"
+	_filePathstring*9
+K* K(/-
++
+lines"System.Collections.Generic.List<T>*
+3*.
+3L	 L(	"
+L L(	
+implicit return:7
+G! G(.+
+items"System.Collections.Generic.List<T>B;9
+7Lecturers_work.Infrastructure.Data.CsvRepositoryBase<T>X†
+FProgram.ShowLoginMenu(Lecturers_work.Application.Services.AuthService)P
+FC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Program.cs' '("0*
+0' '(*
+1*ı
+1) .(6
+4
+) )(
+
+%0void"System.Console.Clear()* c
+a
+* *()
+
+%1void"!System.Console.WriteLine(string?)* * 
+* *((
+=== –í—Ö—ñ–¥ ===b
+`
++ +(&
+
+%2void"!System.Console.WriteLine(string?)* *
++ +(%
+1. –£–≤—ñ–π—Ç–∏™
+ß
+, ,(L
+
+%3void"!System.Console.WriteLine(string?)* *f
+, ,(KZX
+V2. –ó–∞—Ä–µ—î—Å—Ç—Ä—É–≤–∞—Ç–∏ –ê–¥–º—ñ–Ω—ñ—Å—Ç—Ä–∞—Ç–æ—Ä–∞ (–ü–µ—Ä—à–∏–π –∑–∞–ø—É—Å–∫)`
+^
+- -(%
+
+%4void"!System.Console.WriteLine(string?)* *
+- -($
+3. –í–∏—Ö—ñ–¥Q
+O
+. .(
+
+%5void"System.Console.Write(string?)* *
+. .(
+> *
+2*ä
+20 0(";
+9
+0 0("
+%6string"System.Console.ReadLine()* 9
+7
+0 0("
+	%capture0string"__id*
+
+%6string*
+3*z
+32 2(c
+a
+2 2(
+
+%7bool"	__compare*
+==*!
+0 0("
+
+	%capture0string*
+2 2(
+1*
+4
+6*ë
+43 5(%V
+T
+3 3((
+
+%8void"System.Console.Write(string?)* *
+3 3('	
+Email: ;
+9
+32 3(D
+%9string"System.Console.ReadLine()* 1
+/
+3. 3(D
+estring"__id*
+
+%9string^
+\
+4 4()
+%10void"System.Console.Write(string?)* *
+4 4((
+–ü–∞—Ä–æ–ª—å: <
+:
+43 4(E
+%11string"System.Console.ReadLine()* 2
+0
+4/ 4(E
+pstring"__id*
+
+%11stringﬁ
+€
+5 5(%
+%12bool"ELecturers_work.Application.Services.AuthService.Login(string, string)*E
+5 5(9
+7
+auth/Lecturers_work.Application.Services.AuthService*
+5  5(!
+
+estring*
+5# 5($
+
+pstring*
+5
+10*–
+57 8('}
+{
+7 7(B
+%13void"!System.Console.WriteLine(string?)* *9
+7& 7(A-+
+)–ü–æ–º–∏–ª–∫–∞! –ù–∞—Ç–∏—Å–Ω—ñ—Ç—å Enter.<
+:
+8 8(&
+%14string"System.Console.ReadLine()* *
+10*{
+6; ;(d
+b
+; ;(
+%15bool"	__compare*
+==*!
+0 0("
+
+	%capture0string*
+; ;(
+2*
+7
+8*†
+7< >(#Ø
+¨
+< <(H
+%16void"wLecturers_work.Application.Services.AuthService.Register(string, string, string, Lecturers_work.Core.Entities.UserRole)*E
+< <(9
+7
+auth/Lecturers_work.Application.Services.AuthService*
+< <(%	
+Admin*
+<' <(.	
+admin*
+<0 <(7	
+admin*
+<9 <(G2 ö
+ó
+= =(T
+%17void"!System.Console.WriteLine(string?)* *U
+=" =(SIG
+E–ê–¥–º—ñ–Ω—ñ—Å—Ç—Ä–∞—Ç–æ—Ä–∞ —Å—Ç–≤–æ—Ä–µ–Ω–æ (admin/admin). Enter...<
+:
+> >("
+%18string"System.Console.ReadLine()* *
+10*|
+8@ @(d
+b
+@ @(
+%19bool"	__compare*
+==*!
+0 0("
+
+	%capture0string*
+@ @(
+3*
+9
+10*b
+9A A($M
+K
+A A(#
+%20void"System.Environment.Exit(int)* *
+A! A("2 *
+10*/
+10D D("
+D D(
+implicit return:C
+' '(.7
+auth/Lecturers_work.Application.Services.AuthServiceB"	
+ProgramXèê
+wProgram.ShowMainMenu(Lecturers_work.Application.Services.AuthService, Lecturers_work.Application.Services.StudyService)P
+FC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Program.csF F("0*
+0F F(*
+1*
+1H K(36
+4
+H H(
+
+%0void"System.Console.Clear()* æ
+ª
+I& I(6'
+%1!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.get*E
+I& I(*9
+7
+auth/Lecturers_work.Application.Services.AuthService}
+{
+I& I(;
+%2string"*Lecturers_work.Core.Entities.User.Name.get*5
+I& I(6)
+'
+%1!Lecturers_work.Core.Entities.Useræ
+ª
+I? I(O'
+%3!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.get*E
+I? I(C9
+7
+auth/Lecturers_work.Application.Services.AuthServiceù
+ö
+I? I(T+
+%4%Lecturers_work.Core.Entities.UserRole"*Lecturers_work.Core.Entities.User.Role.get*5
+I? I(O)
+'
+%3!Lecturers_work.Core.Entities.User≈
+¬
+I I(W
+%5string"__concat* 
+I I(%
+–í—ñ—Ç–∞—î–º–æ, *
+I% I(<
+
+%2string*
+I< I(>
+ (*9
+I> I(U-
++
+%4%Lecturers_work.Core.Entities.UserRole*
+IU I(V
+)]
+[
+I I(X
+
+%6void"!System.Console.WriteLine(string?)* *
+I I(W
+
+%5stringæ
+ª
+K K('
+%7!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.get*E
+K K(9
+7
+auth/Lecturers_work.Application.Services.AuthServiceù
+ö
+K K(!+
+%8%Lecturers_work.Core.Entities.UserRole"*Lecturers_work.Core.Entities.User.Role.get*5
+K K()
+'
+%7!Lecturers_work.Core.Entities.Userx
+v
+K K(3
+
+%9bool"	__compare*
+==*9
+K K(!-
++
+%8%Lecturers_work.Core.Entities.UserRole*
+K% K(32 *
+2
+3*ù
+2M N(Ep
+n
+M M(1
+%10void"!System.Console.WriteLine(string?)* *,
+M M(0 
+1. –°—Ç–≤–æ—Ä–∏—Ç–∏ –∫—É—Ä—Åñ
+ì
+N N(D
+%11void"!System.Console.WriteLine(string?)* *Q
+N N(CEC
+A2. –ó–∞—Ä–µ—î—Å—Ç—Ä—É–≤–∞—Ç–∏ –Ω–æ–≤–æ–≥–æ –∫–æ—Ä–∏—Å—Ç—É–≤–∞—á–∞*
+7*˜
+3P P(:ø
+º
+P P(!(
+%12!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.get*E
+P P(9
+7
+auth/Lecturers_work.Application.Services.AuthServiceü
+ú
+P P(&,
+%13%Lecturers_work.Core.Entities.UserRole"*Lecturers_work.Core.Entities.User.Role.get*6
+P P(!*
+(
+%12!Lecturers_work.Core.Entities.User|
+z
+P P(:
+%14bool"	__compare*
+==*:
+P P(&.
+,
+%13%Lecturers_work.Core.Entities.UserRole*
+P* P(:2*
+4
+5*Ù
+4R S(5h
+f
+R R(-
+%15void"!System.Console.WriteLine(string?)* *$
+R R(,
+1. –ú–æ—ó –∫—É—Ä—Å–∏v
+t
+S S(4
+%16void"!System.Console.WriteLine(string?)* *2
+S S(3&$
+"2. –ü–æ—Å—Ç–∞–≤–∏—Ç–∏ –æ—Ü—ñ–Ω–∫—É*
+7*˜
+5U U(:ø
+º
+U U(!(
+%17!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.get*E
+U U(9
+7
+auth/Lecturers_work.Application.Services.AuthServiceü
+ú
+U U(&,
+%18%Lecturers_work.Core.Entities.UserRole"*Lecturers_work.Core.Entities.User.Role.get*6
+U U(!*
+(
+%17!Lecturers_work.Core.Entities.User|
+z
+U U(:
+%19bool"	__compare*
+==*:
+U U(&.
+,
+%18%Lecturers_work.Core.Entities.UserRole*
+U* U(:2*
+6
+7*¯
+6W X(3p
+n
+W W(1
+%20void"!System.Console.WriteLine(string?)* *,
+W W(0 
+1. –°–ø–∏—Å–æ–∫ –∫—É—Ä—Å—ñ–≤r
+p
+X X(2
+%21void"!System.Console.WriteLine(string?)* *.
+X X(1" 
+2. –ú–æ—è —É—Å–ø—ñ—à–Ω—ñ—Å—Ç—å*
+7*“
+7[ ](*s
+q
+[ [(/
+%22void"!System.Console.WriteLine(string?)* */
+[ [(.#!
+0. –í–∏—Ö—ñ–¥ –∑ –∞–∫–∞—É–Ω—Ç—ÉR
+P
+\ \(
+%23void"System.Console.Write(string?)* *
+\ \(
+> <
+:
+] ](*
+%24string"System.Console.ReadLine()* 7
+5
+] ](*
+choicestring"__id*
+
+%24string*
+8*y
+8a a(a
+_
+a a(
+%25bool"	__compare*
+==*
+a a(
+
+choicestring*
+a a(
+0*
+9
+10*µ
+9a a(-õ
+ò
+a a(,
+%26void"8Lecturers_work.Application.Services.AuthService.Logout()*E
+a a(#9
+7
+auth/Lecturers_work.Application.Services.AuthService*
+39
+38*¯
+10d d(<ø
+º
+d d(%(
+%27!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.get*E
+d d(9
+7
+auth/Lecturers_work.Application.Services.AuthServiceü
+ú
+d d(*,
+%28%Lecturers_work.Core.Entities.UserRole"*Lecturers_work.Core.Entities.User.Role.get*6
+d d(%*
+(
+%27!Lecturers_work.Core.Entities.Userz
+x
+d d(<
+%29bool"	__compare*
+==*:
+d d(*.
+,
+%28%Lecturers_work.Core.Entities.UserRole*
+d. d(<2 *
+11
+13*{
+11d@ d(Ma
+_
+d@ d(M
+%30bool"	__compare*
+==*
+d@ d(F
+
+choicestring*
+dJ d(M
+1*
+12
+13*Œ
+12f j(/\
+Z
+f f((
+%31void"System.Console.Write(string?)* *
+f f('
+–ù–∞–∑–≤–∞: <
+:
+f5 f(G
+%32string"System.Console.ReadLine()* 2
+0
+f1 f(G
+tstring"__id*
+
+%32stringZ
+X
+g g('
+%33void"System.Console.Write(string?)* *
+g g(&
+
+–û–ø–∏—Å: <
+:
+g4 g(F
+%34string"System.Console.ReadLine()* 2
+0
+g0 g(F
+dstring"__id*
+
+%34stringg
+e
+h h(/
+%35void"System.Console.Write(string?)* *'
+h h(.
+ID –≤–∏–∫–ª–∞–¥–∞—á–∞: <
+:
+hE h(W
+%36string"System.Console.ReadLine()* N
+L
+h; h(X
+
+%37int"int.Parse(string)* *
+hE h(W
+
+%36string.
+,
+h5 h(X
+
+tidint"__id*
+
+
+%37intá
+Ñ
+i i(-
+%38void"RLecturers_work.Application.Services.StudyService.CreateCourse(string, string, int)*G
+i i(;
+9
+study0Lecturers_work.Application.Services.StudyService*
+i# i($
+
+tstring*
+i& i('
+
+dstring*
+i) i(,
+
+
+tidinte
+c
+j j(.
+%39void"!System.Console.WriteLine(string?)* *!
+j" j(-
+–°—Ç–≤–æ—Ä–µ–Ω–æ!*
+39
+38*¯
+13l l(<ø
+º
+l l(%(
+%40!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.get*E
+l l(9
+7
+auth/Lecturers_work.Application.Services.AuthServiceü
+ú
+l l(*,
+%41%Lecturers_work.Core.Entities.UserRole"*Lecturers_work.Core.Entities.User.Role.get*6
+l l(%*
+(
+%40!Lecturers_work.Core.Entities.Userz
+x
+l l(<
+%42bool"	__compare*
+==*:
+l l(*.
+,
+%41%Lecturers_work.Core.Entities.UserRole*
+l. l(<2 *
+14
+16*{
+14l@ l(Ma
+_
+l@ l(M
+%43bool"	__compare*
+==*
+l@ l(F
+
+choicestring*
+lJ l(M
+2*
+15
+16* 
+15n t(9Y
+W
+n n('
+%44void"System.Console.Write(string?)* *
+n n(&
+	–Ü–º'—è: <
+:
+n4 n(F
+%45string"System.Console.ReadLine()* 2
+0
+n0 n(F
+nstring"__id*
+
+%45stringW
+U
+o o((
+%46void"System.Console.Write(string?)* *
+o o('	
+Email: <
+:
+o6 o(H
+%47string"System.Console.ReadLine()* 3
+1
+o1 o(H
+emstring"__id*
+
+%47string^
+\
+p p()
+%48void"System.Console.Write(string?)* *
+p p((
+–ü–∞—Ä–æ–ª—å: <
+:
+p7 p(I
+%49string"System.Console.ReadLine()* 3
+1
+p2 p(I
+psstring"__id*
+
+%49stringÅ
+
+q q(?
+%50void"System.Console.Write(string?)* *A
+q q(>53
+1–†–æ–ª—å (1-–í–∏–∫–ª–∞–¥–∞—á, 2-–°—Ç—É–¥–µ–Ω—Ç): <
+:
+r1 r(C
+%51string"System.Console.ReadLine()* N
+L
+r' r(D
+
+%52int"int.Parse(string)* *
+r1 r(C
+
+%51stringN
+L
+r r(D*
+r%Lecturers_work.Core.Entities.UserRole"__id*
+
+
+%52intÁ
+‰
+s s(+
+%53void"wLecturers_work.Application.Services.AuthService.Register(string, string, string, Lecturers_work.Core.Entities.UserRole)*E
+s s(9
+7
+auth/Lecturers_work.Application.Services.AuthService*
+s s(
+
+nstring*
+s! s(#
+
+emstring*
+s% s('
+
+psstring*8
+s) s(*,
+*
+r%Lecturers_work.Core.Entities.UserRolex
+v
+t t(8
+%54void"!System.Console.WriteLine(string?)* *4
+t" t(7(&
+$–ö–æ—Ä–∏—Å—Ç—É–≤–∞—á–∞ –¥–æ–¥–∞–Ω–æ!*
+39
+38*˙
+16x x(>ø
+º
+x x(%(
+%55!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.get*E
+x x(9
+7
+auth/Lecturers_work.Application.Services.AuthServiceü
+ú
+x x(*,
+%56%Lecturers_work.Core.Entities.UserRole"*Lecturers_work.Core.Entities.User.Role.get*6
+x x(%*
+(
+%55!Lecturers_work.Core.Entities.User|
+z
+x x(>
+%57bool"	__compare*
+==*:
+x x(*.
+,
+%56%Lecturers_work.Core.Entities.UserRole*
+x. x(>2*
+17
+24*{
+17xB x(Oa
+_
+xB x(O
+%58bool"	__compare*
+==*
+xB x(H
+
+choicestring*
+xL x(O
+1*
+18
+24*≠
+18z z(Lø
+º
+z8 z(H(
+%59!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.get*E
+z8 z(<9
+7
+auth/Lecturers_work.Application.Services.AuthServicez
+x
+z8 z(K
+
+%60int"(Lecturers_work.Core.Entities.User.Id.get*6
+z8 z(H*
+(
+%59!Lecturers_work.Core.Entities.UserÊ
+„
+z z(L)
+%61"System.Collections.Generic.List<T>"ILecturers_work.Application.Services.StudyService.GetCoursesByTeacher(int)*G
+z z(#;
+9
+study0Lecturers_work.Application.Services.StudyService*
+z8 z(K
+
+
+%60intp
+n
+z z(L-
+courses"System.Collections.Generic.List<T>"__id*-+
+)
+%61"System.Collections.Generic.List<T>*
+19*ﬁ
+19{" {()ª
+∏
+{" {()4
+%62-System.Collections.Generic.List<T>.Enumerator"9System.Collections.Generic.ICollection<T>.GetEnumerator()*;
+{" {()/
+-
+courses"System.Collections.Generic.List<T>â
+Ü
+{" {():
+	%capture0-System.Collections.Generic.List<T>.Enumerator"__id*86
+4
+%62-System.Collections.Generic.List<T>.Enumerator*
+20*Ω
+20{" {()û
+õ
+{" {()
+%63bool"8System.Collections.Generic.List<T>.Enumerator.MoveNext()*H
+{" {()<
+:
+	%capture0-System.Collections.Generic.List<T>.Enumerator*
+21
+22
+38*≥
+21{ {(Xæ
+ª
+{ {(*
+%64#Lecturers_work.Core.Entities.Course"9System.Collections.Generic.List<T>.Enumerator.Current.get*H
+{" {()<
+:
+	%capture0-System.Collections.Generic.List<T>.Enumeratorl
+j
+{ {((
+c#Lecturers_work.Core.Entities.Course"__id*.,
+*
+%64#Lecturers_work.Core.Entities.Course|
+z
+{D {(H
+
+%65int"*Lecturers_work.Core.Entities.Course.Id.get*6
+{D {(E*
+(
+c#Lecturers_work.Core.Entities.CourseÉ
+Ä
+{M {(T
+%66string"-Lecturers_work.Core.Entities.Course.Title.get*6
+{M {(N*
+(
+c#Lecturers_work.Core.Entities.Courseà
+Ö
+{= {(V
+%67string"__concat*
+{? {(C
+ID: *
+{C {(I
+
+
+%65int*
+{I {(L
+ | *
+{L {(U
+
+%66string_
+]
+{+ {(W
+%68void"!System.Console.WriteLine(string?)* *
+{= {(V
+
+%67string*
+20*§
+22{" {()çä
+{" {()
+%69void"System.IDisposable.Dispose()*H
+{" {()<
+:
+	%capture0-System.Collections.Generic.List<T>.Enumerator2	Dispose()*
+23*V
+23| |(#<
+:
+| |("
+%70string"System.Console.ReadLine()* *
+39
+38*˙
+24~ ~(>ø
+º
+~ ~(%(
+%71!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.get*E
+~ ~(9
+7
+auth/Lecturers_work.Application.Services.AuthServiceü
+ú
+~ ~(*,
+%72%Lecturers_work.Core.Entities.UserRole"*Lecturers_work.Core.Entities.User.Role.get*6
+~ ~(%*
+(
+%71!Lecturers_work.Core.Entities.User|
+z
+~ ~(>
+%73bool"	__compare*
+==*:
+~ ~(*.
+,
+%72%Lecturers_work.Core.Entities.UserRole*
+~. ~(>2*
+25
+27*{
+25~B ~(Oa
+_
+~B ~(O
+%74bool"	__compare*
+==*
+~B ~(H
+
+choicestring*
+~L ~(O
+2*
+26
+27*ç
+26
+Ä Ö(7c
+a
+
+Ä Ä(+
+%75void"System.Console.Write(string?)* *!
+
+Ä Ä(*
+ID –∫—É—Ä—Å—É: >
+<
+
+ÄA Ä(S
+%76string"System.Console.ReadLine()* R
+P
+
+Ä7 Ä(T
+
+%77int"int.Parse(string)* *
+
+ÄA Ä(S
+
+%76string0
+.
+
+Ä1 Ä(T
+
+cidint"__id*
+
+
+%77inti
+g
+
+Å Å(.
+%78void"System.Console.Write(string?)* *'
+
+Å Å(-
+ID —Å—Ç—É–¥–µ–Ω—Ç–∞: >
+<
+
+ÅD Å(V
+%79string"System.Console.ReadLine()* R
+P
+
+Å: Å(W
+
+%80int"int.Parse(string)* *
+
+ÅD Å(V
+
+%79string0
+.
+
+Å4 Å(W
+
+sidint"__id*
+
+
+%80intb
+`
+
+Ç Ç()
+%81void"System.Console.Write(string?)* * 
+
+Ç Ç((
+–û—Ü—ñ–Ω–∫–∞: >
+<
+
+Ç> Ç(P
+%82string"System.Console.ReadLine()* R
+P
+
+Ç4 Ç(Q
+
+%83int"int.Parse(string)* *
+
+Ç> Ç(P
+
+%82string/
+-
+
+Ç/ Ç(Q	
+grint"__id*
+
+
+%83int|
+z
+
+É É(=
+%84void"System.Console.Write(string?)* *:
+
+É É(<,*
+(–ë—É–≤ –ø—Ä–∏—Å—É—Ç–Ω—ñ–π (true/false): >
+<
+
+ÉT É(f
+%85string"System.Console.ReadLine()* T
+R
+
+ÉI É(g
+%86bool"bool.Parse(string)* *
+
+ÉT É(f
+
+%85string1
+/
+
+ÉD É(g
+
+prbool"__id*
+
+%86bool™
+ß
+
+Ñ Ñ(4
+%87void"RLecturers_work.Application.Services.StudyService.GradeStudent(int, int, int, bool)*I
+
+Ñ Ñ(;
+9
+study0Lecturers_work.Application.Services.StudyService*
+
+Ñ# Ñ(&
+
+
+cidint*
+
+Ñ( Ñ(+
+
+
+sidint*
+
+Ñ- Ñ(/
+	
+grint*
+
+Ñ1 Ñ(3
+
+
+prboolx
+v
+
+Ö Ö(6
+%88void"!System.Console.WriteLine(string?)* *2
+
+Ö" Ö(5$"
+ –û—Ü—ñ–Ω–∫—É –∑–±–µ—Ä–µ–∂–µ–Ω–æ!*
+39
+38*å
+27
+â â(>√
+¿
+
+â â(%(
+%89!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.get*G
+
+â â(9
+7
+auth/Lecturers_work.Application.Services.AuthService£
+†
+
+â â(*,
+%90%Lecturers_work.Core.Entities.UserRole"*Lecturers_work.Core.Entities.User.Role.get*8
+
+â â(%*
+(
+%89!Lecturers_work.Core.Entities.UserÉ
+Ä
+
+â â(>
+%91bool"	__compare*
+==*<
+
+â â(*.
+,
+%90%Lecturers_work.Core.Entities.UserRole*
+
+â. â(>2*
+28
+35*É
+28
+âB â(Og
+e
+
+âB â(O
+%92bool"	__compare*
+==* 
+
+âB â(H
+
+choicestring*
+
+âL â(O
+1*
+29
+35*–
+29
+ã ã(/«
+ƒ
+
+ã ã(/)
+%93"System.Collections.Generic.List<T>"@Lecturers_work.Application.Services.StudyService.GetAllCourses()*I
+
+ã ã(;
+9
+study0Lecturers_work.Application.Services.StudyServicen
+l
+
+ã ã(/)
+all"System.Collections.Generic.List<T>"__id*-+
+)
+%93"System.Collections.Generic.List<T>*
+30*‚
+30
+å" å(%ª
+∏
+
+å" å(%4
+%94-System.Collections.Generic.List<T>.Enumerator"9System.Collections.Generic.ICollection<T>.GetEnumerator()*9
+
+å" å(%+
+)
+all"System.Collections.Generic.List<T>ã
+à
+
+å" å(%:
+	%capture1-System.Collections.Generic.List<T>.Enumerator"__id*86
+4
+%94-System.Collections.Generic.List<T>.Enumerator*
+31*√
+31
+å" å(%¢
+ü
+
+å" å(%
+%95bool"8System.Collections.Generic.List<T>.Enumerator.MoveNext()*J
+
+å" å(%<
+:
+	%capture1-System.Collections.Generic.List<T>.Enumerator*
+32
+33
+38*Ç
+32
+å å(a¬
+ø
+
+å å(*
+%96#Lecturers_work.Core.Entities.Course"9System.Collections.Generic.List<T>.Enumerator.Current.get*J
+
+å" å(%<
+:
+	%capture1-System.Collections.Generic.List<T>.Enumeratorn
+l
+
+å å((
+c#Lecturers_work.Core.Entities.Course"__id*.,
+*
+%96#Lecturers_work.Core.Entities.CourseÄ
+~
+
+å< å(@
+
+%97int"*Lecturers_work.Core.Entities.Course.Id.get*8
+
+å< å(=*
+(
+c#Lecturers_work.Core.Entities.Courseá
+Ñ
+
+åD å(K
+%98string"-Lecturers_work.Core.Entities.Course.Title.get*8
+
+åD å(E*
+(
+c#Lecturers_work.Core.Entities.Courseç
+ä
+
+åP å(]
+%99string"3Lecturers_work.Core.Entities.Course.Description.get*8
+
+åP å(Q*
+(
+c#Lecturers_work.Core.Entities.Course∞
+≠
+
+å9 å(_
+%100string"__concat*
+
+å; å(A
+
+
+%97int*
+
+åA å(C
+. *
+
+åC å(L
+
+%98string*
+
+åL å(O
+ - *
+
+åO å(^
+
+%99stringe
+c
+
+å' å(`
+%101void"!System.Console.WriteLine(string?)* *
+
+å9 å(_
+
+%100string*
+31*´
+33
+å" å(%íè
+
+å" å(%
+%102void"System.IDisposable.Dispose()*J
+
+å" å(%<
+:
+	%capture1-System.Collections.Generic.List<T>.Enumerator2	Dispose()*
+34*[
+34
+ç ç(#?
+=
+
+ç ç("
+%103string"System.Console.ReadLine()* *
+39
+38*ï
+35
+è è(>ƒ
+¡
+
+è è(%)
+%104!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.get*G
+
+è è(9
+7
+auth/Lecturers_work.Application.Services.AuthService•
+¢
+
+è è(*-
+%105%Lecturers_work.Core.Entities.UserRole"*Lecturers_work.Core.Entities.User.Role.get*9
+
+è è(%+
+)
+%104!Lecturers_work.Core.Entities.UserÖ
+Ç
+
+è è(>
+%106bool"	__compare*
+==*=
+
+è è(*/
+-
+%105%Lecturers_work.Core.Entities.UserRole*
+
+è. è(>2*
+36
+39
+38*à
+36
+èB è(Oh
+f
+
+èB è(O
+%107bool"	__compare*
+==* 
+
+èB è(H
+
+choicestring*
+
+èL è(O
+2*
+37
+39
+38*ö
+37
+ë ì(#ƒ
+¡
+
+ë: ë(J)
+%108!Lecturers_work.Core.Entities.User"?Lecturers_work.Application.Services.AuthService.CurrentUser.get*G
+
+ë: ë(>9
+7
+auth/Lecturers_work.Application.Services.AuthServiceÄ
+~
+
+ë: ë(M
+%109int"(Lecturers_work.Core.Entities.User.Id.get*9
+
+ë: ë(J+
+)
+%108!Lecturers_work.Core.Entities.User’
+“
+
+ë ë(N
+%110double"LLecturers_work.Application.Services.StudyService.GetStudentAverageGrade(int)*I
+
+ë ë(";
+9
+study0Lecturers_work.Application.Services.StudyService*
+
+ë: ë(M
+
+%109int7
+5
+
+ë ë(N
+avgdouble"__id*
+
+%110double{
+y
+
+í" í(?
+%111string"__concat*2
+
+í$ í(6$"
+ –í–∞—à —Å–µ—Ä–µ–¥–Ω—ñ–π –±–∞–ª: *
+
+í6 í(>
+
+avgdoublee
+c
+
+í í(@
+%112void"!System.Console.WriteLine(string?)* *
+
+í" í(?
+
+%111string?
+=
+
+ì ì("
+%113string"System.Console.ReadLine()* *
+39
+38*ﬁ
+38
+ñ ô(=
+;
+
+ñ ñ(
+exSystem.Exception"__id*
+	{unknown}qo
+
+ò* ò(4
+%114string"System.Exception.Message.get*&
+
+ò* ò(,
+
+exSystem.Exception2Message.getl
+j
+
+ò ò(6
+%115string"__concat*"
+
+ò  ò()
+–ü–æ–º–∏–ª–∫–∞: *
+
+ò) ò(5
+
+%114stringe
+c
+
+ò ò(7
+%116void"!System.Console.WriteLine(string?)* *
+
+ò ò(6
+
+%115string?
+=
+
+ô ô(
+%117string"System.Console.ReadLine()* *
+39*3
+39
+õ õ("!
+
+õ õ(
+implicit return:C
+F F(-7
+auth/Lecturers_work.Application.Services.AuthService:E
+F/ F(A9
+study0Lecturers_work.Application.Services.StudyServiceB"	
+ProgramX

@@ -1,0 +1,7 @@
+organization=vexbor
+projectKey=VexBor_Lecturers_work
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.78264
+dashboardUrl=https://sonarcloud.io/dashboard?id=VexBor_Lecturers_work
+ceTaskId=AZueJWq4XV7DshqDemcv
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZueJWq4XV7DshqDemcv

@@ -13,3 +13,17 @@ C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\ref
 C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturers_work.pdb
 C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturers_work.genruntimeconfig.cache
 C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\ref\Lecturers_work.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturers_work.csproj.AssemblyReference.cache
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\Spectre.Console.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\Spectre.Console.Cli.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\de\Spectre.Console.Cli.resources.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\es\Spectre.Console.Cli.resources.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\fr\Spectre.Console.Cli.resources.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\it\Spectre.Console.Cli.resources.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\ja\Spectre.Console.Cli.resources.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\ko\Spectre.Console.Cli.resources.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\pt\Spectre.Console.Cli.resources.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\ru\Spectre.Console.Cli.resources.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\sv\Spectre.Console.Cli.resources.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\zh-Hans\Spectre.Console.Cli.resources.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturer.225A82C1.Up2Date

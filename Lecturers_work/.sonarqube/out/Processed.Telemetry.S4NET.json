@@ -1,0 +1,9 @@
+{"dotnetenterprise.s4net.serverInfo.region":"default"}
+{"dotnetenterprise.s4net.serverInfo.product":"SQ_Cloud"}
+{"dotnetenterprise.s4net.serverInfo.serverUrl":"https://sonarcloud.io"}
+{"dotnetenterprise.s4net.serverInfo.version":"8.0.0.78264"}
+{"dotnetenterprise.s4net.jre.bootstrapping":"Enabled"}
+{"dotnetenterprise.s4net.jre.download":"Downloaded"}
+{"dotnetenterprise.s4net.scannerEngine.bootstrapping":"Enabled"}
+{"dotnetenterprise.s4net.scannerEngine.download":"Downloaded"}
+{"dotnetenterprise.s4net.endstep.legacyTFS":"NotCalled"}

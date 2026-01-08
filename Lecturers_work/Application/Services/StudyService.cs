@@ -16,7 +16,7 @@ namespace Lecturers_work.Application.Services
             _recordRepo = recordRepo;
         }
 
-        public void CreateCourse(string title, string description, int teacherId, int price)
+        public void CreateCourse(string title, string description, int teacherId)
         {
             _courseRepo.Add(new Course
             {

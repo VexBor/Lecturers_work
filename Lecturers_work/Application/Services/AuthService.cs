@@ -24,6 +24,7 @@
                 CurrentUser = user;
                 return true;
             }
+
             return false;
         }
 

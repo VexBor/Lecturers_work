@@ -25,7 +25,10 @@ namespace Lecturers_work.Infrastructure.Data
 
         public List<T> GetAll()
         {
-            if (!File.Exists(_filePath)) return new List<T>();
+            if (!File.Exists(_filePath))
+            {
+                return new List<T>();
+            }
 
             return File.ReadAllLines(_filePath)
                 .Skip(1)

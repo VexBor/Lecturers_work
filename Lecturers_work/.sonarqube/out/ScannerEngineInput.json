@@ -1,0 +1,100 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.0"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1767884784000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "VexBor_Lecturers_work"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work"
+    },
+    {
+      "key": "sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "96AC540C-C538-4341-B3F6-81D17F9D13AC"
+    },
+    {
+      "key": "96AC540C-C538-4341-B3F6-81D17F9D13AC.sonar.projectKey",
+      "value": "VexBor_Lecturers_work:96AC540C-C538-4341-B3F6-81D17F9D13AC"
+    },
+    {
+      "key": "96AC540C-C538-4341-B3F6-81D17F9D13AC.sonar.projectName",
+      "value": "Lecturers_work"
+    },
+    {
+      "key": "96AC540C-C538-4341-B3F6-81D17F9D13AC.sonar.projectBaseDir",
+      "value": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work"
+    },
+    {
+      "key": "96AC540C-C538-4341-B3F6-81D17F9D13AC.sonar.working.directory",
+      "value": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "96AC540C-C538-4341-B3F6-81D17F9D13AC.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "96AC540C-C538-4341-B3F6-81D17F9D13AC.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "96AC540C-C538-4341-B3F6-81D17F9D13AC.sonar.sources",
+      "value": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Application\\Services\\AuthService.cs,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Application\\Services\\StudyService.cs,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Core\\Entities\\Course.cs,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Core\\Entities\\Record.cs,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Core\\Entities\\User.cs,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Core\\Interface\\IEntity.cs,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Core\\Interface\\IRepository.cs,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Infrastructure\\Data\\CourseRepository.cs,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Infrastructure\\Data\\CsvRepositoryBase.cs,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Infrastructure\\Data\\RecordRepository.cs,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Infrastructure\\Data\\UserRepository.cs,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Program.cs,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\.editorconfic,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\courses.csv,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\records.csv,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\stylecop.json,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\users.csv,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\obj\\Lecturers_work.csproj.nuget.dgspec.json,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\obj\\project.assets.json,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\obj\\project.packagespec.json,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\bin\\Debug\\net8.0\\Lecturers_work.deps.json,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\bin\\Debug\\net8.0\\Lecturers_work.runtimeconfig.json,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\bin\\Debug\\net9.0\\Lecturers_work.deps.json,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\bin\\Debug\\net9.0\\Lecturers_work.runtimeconfig.json,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\obj\\Debug\\net8.0\\Lecturers_work.sourcelink.json,C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\obj\\Debug\\net9.0\\Lecturers_work.sourcelink.json"
+    },
+    {
+      "key": "96AC540C-C538-4341-B3F6-81D17F9D13AC.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\.sonarqube\\out\\0"
+    },
+    {
+      "key": "96AC540C-C538-4341-B3F6-81D17F9D13AC.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\.sonarqube\\out\\0\\Issues.json"
+    },
+    {
+      "key": "96AC540C-C538-4341-B3F6-81D17F9D13AC.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\.sonarqube\\out\\0\\Telemetry.json"
+    },
+    {
+      "key": "sonar.token",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "https://sonarcloud.io"
+    },
+    {
+      "key": "sonar.organization",
+      "value": "vexbor"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}

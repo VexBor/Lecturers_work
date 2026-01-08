@@ -1,0 +1,1 @@
+gRQC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Lecturers_work.csproj¢net8.0òCSharp12

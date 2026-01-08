@@ -1,0 +1,4127 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "5.0.0.0",
+        "fileVersion": "5.0.0-2.25569.105 (fad253f5)",
+        "semanticVersion": "5.0.0",
+        "language": "uk-UA"
+      },
+      "results": [
+        {
+          "ruleId": "CS0105",
+          "level": "warning",
+          "message": "The using directive for 'Lecturers_work.Application.Services' appeared previously in this namespace",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 7,
+                  "endLine": 6,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0105",
+          "level": "warning",
+          "message": "The using directive for 'Lecturers_work.Core.Entities' appeared previously in this namespace",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 7,
+                  "endLine": 7,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0105",
+          "level": "warning",
+          "message": "The using directive for 'Lecturers_work.Infrastructure.Data' appeared previously in this namespace",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 7,
+                  "endLine": 8,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'CurrentUser' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/AuthService.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 16,
+                  "endLine": 12,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/AuthService.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 21,
+                  "endLine": 10,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Title' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Course.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Course.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Description' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Course.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Course.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/User.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/User.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/User.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/User.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Password' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/User.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/User.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "Cannot convert null literal to non-nullable reference type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/AuthService.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 27,
+                  "endLine": 43,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8619",
+          "level": "warning",
+          "message": "Nullability of reference types in value of type 'List<T?>' doesn't match target type 'List<T>'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 20,
+                  "endLine": 38,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 20,
+                  "endLine": 43,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'email' in 'bool AuthService.Login(string email, string password)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 33,
+                  "endLine": 53,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'password' in 'bool AuthService.Login(string email, string password)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 36,
+                  "endLine": 53,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 25,
+                  "endLine": 93,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 54,
+                  "endLine": 102,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 53,
+                  "endLine": 103,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 's' in 'int int.Parse(string s)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 70,
+                  "endLine": 104,
+                  "endColumn": 88
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'title' in 'void StudyService.CreateCourse(string title, string description, int teacherId)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 36,
+                  "endLine": 105,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'description' in 'void StudyService.CreateCourse(string title, string description, int teacherId)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 39,
+                  "endLine": 105,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 53,
+                  "endLine": 110,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 55,
+                  "endLine": 111,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Converting null literal or possible null value to non-nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 56,
+                  "endLine": 112,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 's' in 'int int.Parse(string s)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 50,
+                  "endLine": 114,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'name' in 'void AuthService.Register(string name, string email, string password, UserRole role)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 31,
+                  "endLine": 115,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'email' in 'void AuthService.Register(string name, string email, string password, UserRole role)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 34,
+                  "endLine": 115,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'password' in 'void AuthService.Register(string name, string email, string password, UserRole role)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 38,
+                  "endLine": 115,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 's' in 'int int.Parse(string s)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 66,
+                  "endLine": 128,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 's' in 'int int.Parse(string s)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 69,
+                  "endLine": 129,
+                  "endColumn": 87
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 's' in 'int int.Parse(string s)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 63,
+                  "endLine": 130,
+                  "endColumn": 81
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'value' in 'bool bool.Parse(string value)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 85,
+                  "endLine": 131,
+                  "endColumn": 103
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1633",
+          "level": "warning",
+          "message": "The file header is missing or not located at the top of the file.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/AuthService.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1513",
+          "level": "warning",
+          "message": "Closing brace should be followed by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/AuthService.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 14,
+                  "endLine": 27,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1633",
+          "level": "warning",
+          "message": "The file header is missing or not located at the top of the file.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1633",
+          "level": "warning",
+          "message": "The file header is missing or not located at the top of the file.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Course.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1633",
+          "level": "warning",
+          "message": "The file header is missing or not located at the top of the file.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Record.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1633",
+          "level": "warning",
+          "message": "The file header is missing or not located at the top of the file.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/User.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1633",
+          "level": "warning",
+          "message": "The file header is missing or not located at the top of the file.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Interface/IEntity.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1633",
+          "level": "warning",
+          "message": "The file header is missing or not located at the top of the file.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Interface/IRepository.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1633",
+          "level": "warning",
+          "message": "The file header is missing or not located at the top of the file.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CourseRepository.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1633",
+          "level": "warning",
+          "message": "The file header is missing or not located at the top of the file.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1633",
+          "level": "warning",
+          "message": "The file header is missing or not located at the top of the file.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/RecordRepository.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1633",
+          "level": "warning",
+          "message": "The file header is missing or not located at the top of the file.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/UserRepository.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 1,
+                  "endLine": 2,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 1,
+                  "endLine": 4,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Course.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Record.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/User.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Interface/IRepository.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CourseRepository.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 1,
+                  "endLine": 2,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 1,
+                  "endLine": 4,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "endLine": 5,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/RecordRepository.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1200",
+          "level": "warning",
+          "message": "Using directive should appear within a namespace declaration",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/UserRepository.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1210",
+          "level": "warning",
+          "message": "Using directives should be ordered alphabetically by the namespaces.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "endLine": 5,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1633",
+          "level": "warning",
+          "message": "The file header is missing or not located at the top of the file.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1513",
+          "level": "warning",
+          "message": "Closing brace should be followed by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 18,
+                  "endLine": 58,
+                  "endColumn": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1309",
+          "level": "warning",
+          "message": "Field '_userRepo' should not begin with an underscore",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/AuthService.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 44,
+                  "endLine": 9,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 7,
+                  "endLine": 10,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1516",
+          "level": "warning",
+          "message": "Elements should be separated by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Interface/IRepository.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 1,
+                  "endLine": 8,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "CodeFixAction": "InsertBlankLine"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1516",
+          "level": "warning",
+          "message": "Elements should be separated by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Interface/IRepository.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 1,
+                  "endLine": 9,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "CodeFixAction": "InsertBlankLine"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1516",
+          "level": "warning",
+          "message": "Elements should be separated by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Interface/IRepository.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 1,
+                  "endLine": 10,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "CodeFixAction": "InsertBlankLine"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1516",
+          "level": "warning",
+          "message": "Elements should be separated by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Interface/IRepository.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 1,
+                  "endLine": 11,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "CodeFixAction": "InsertBlankLine"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1309",
+          "level": "warning",
+          "message": "Field '_courseRepo' should not begin with an underscore",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 46,
+                  "endLine": 10,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1309",
+          "level": "warning",
+          "message": "Field '_recordRepo' should not begin with an underscore",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 46,
+                  "endLine": 11,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1401",
+          "level": "warning",
+          "message": "Field should be private",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 35,
+                  "endLine": 11,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1309",
+          "level": "warning",
+          "message": "Field '_filePath' should not begin with an underscore",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 35,
+                  "endLine": 11,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'Program' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 7,
+                  "endLine": 10,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1502",
+          "level": "warning",
+          "message": "Element should not be on a single line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/User.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 26,
+                  "endLine": 5,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1136",
+          "level": "warning",
+          "message": "Enum values should be on separate lines",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/User.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 35,
+                  "endLine": 5,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1136",
+          "level": "warning",
+          "message": "Enum values should be on separate lines",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/User.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 44,
+                  "endLine": 5,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1516",
+          "level": "warning",
+          "message": "Elements should be separated by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/AuthService.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 1,
+                  "endLine": 10,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "CodeFixAction": "InsertBlankLine"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1201",
+          "level": "warning",
+          "message": "A constructor should not follow a property",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/AuthService.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 16,
+                  "endLine": 12,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1516",
+          "level": "warning",
+          "message": "Elements should be separated by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Course.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 1,
+                  "endLine": 8,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "CodeFixAction": "InsertBlankLine"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1516",
+          "level": "warning",
+          "message": "Elements should be separated by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Course.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 1,
+                  "endLine": 9,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "CodeFixAction": "InsertBlankLine"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1516",
+          "level": "warning",
+          "message": "Elements should be separated by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Course.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 1,
+                  "endLine": 10,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "CodeFixAction": "InsertBlankLine"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1516",
+          "level": "warning",
+          "message": "Elements should be separated by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Record.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 1,
+                  "endLine": 8,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "CodeFixAction": "InsertBlankLine"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1516",
+          "level": "warning",
+          "message": "Elements should be separated by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Record.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 1,
+                  "endLine": 9,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "CodeFixAction": "InsertBlankLine"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1516",
+          "level": "warning",
+          "message": "Elements should be separated by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Record.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 1,
+                  "endLine": 10,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "CodeFixAction": "InsertBlankLine"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1516",
+          "level": "warning",
+          "message": "Elements should be separated by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Core/Entities/Record.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 1,
+                  "endLine": 11,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "CodeFixAction": "InsertBlankLine"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1516",
+          "level": "warning",
+          "message": "Elements should be separated by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 1,
+                  "endLine": 23,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "CodeFixAction": "InsertBlankLine"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1516",
+          "level": "warning",
+          "message": "Elements should be separated by blank line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 1,
+                  "endLine": 24,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "CodeFixAction": "InsertBlankLine"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1202",
+          "level": "warning",
+          "message": "'public' members should come before 'protected' members",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 24,
+                  "endLine": 26,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1127",
+          "level": "warning",
+          "message": "Generic type constraints should be on their own line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 65,
+                  "endLine": 9,
+                  "endColumn": 82
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1400",
+          "level": "warning",
+          "message": "Element 'Program' should declare an access modifier",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 7,
+                  "endLine": 10,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1502",
+          "level": "warning",
+          "message": "Element should not be on a single line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/UserRepository.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 57,
+                  "endLine": 7,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1128",
+          "level": "warning",
+          "message": "Put constructor initializers on their own line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/UserRepository.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 44,
+                  "endLine": 7,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1502",
+          "level": "warning",
+          "message": "Element should not be on a single line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CourseRepository.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 59,
+                  "endLine": 7,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1128",
+          "level": "warning",
+          "message": "Put constructor initializers on their own line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CourseRepository.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 46,
+                  "endLine": 7,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/AuthService.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 13,
+                  "endLine": 14,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 13,
+                  "endLine": 15,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 13,
+                  "endLine": 16,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1502",
+          "level": "warning",
+          "message": "Element should not be on a single line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/RecordRepository.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 59,
+                  "endLine": 7,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1128",
+          "level": "warning",
+          "message": "Put constructor initializers on their own line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/RecordRepository.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 46,
+                  "endLine": 7,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/AuthService.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 13,
+                  "endLine": 43,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2190",
+          "level": "warning",
+          "message": "Add a way to break out of this method's recursion.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 17,
+                  "endLine": 12,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2955",
+          "level": "warning",
+          "message": "Use a comparison to 'default(T)' instead or add a constraint to 'T' so that it can't be a value type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 34,
+                  "endLine": 37,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 20,
+                  "endLine": 31,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 13,
+                  "endLine": 15,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 30,
+                  "endLine": 16,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 35,
+                  "endLine": 18,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 46,
+                  "endLine": 18,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1699",
+          "level": "warning",
+          "message": "Remove this call from a constructor to the overridable 'GetHeader' method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 46,
+                  "endLine": 18,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1413",
+          "level": "warning",
+          "message": "Use trailing comma in multi-line initializers",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/AuthService.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 17,
+                  "endLine": 37,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/AuthService.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 13,
+                  "endLine": 32,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 13,
+                  "endLine": 21,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1413",
+          "level": "warning",
+          "message": "Use trailing comma in multi-line initializers",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/UserRepository.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 17,
+                  "endLine": 23,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1413",
+          "level": "warning",
+          "message": "Use trailing comma in multi-line initializers",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/RecordRepository.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 17,
+                  "endLine": 23,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 17,
+                  "endLine": 70,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 9,
+                  "endLine": 75,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 9,
+                  "endLine": 80,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 9,
+                  "endLine": 85,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 13,
+                  "endLine": 97,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 13,
+                  "endLine": 100,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 62,
+                  "endLine": 100,
+                  "endColumn": 64
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 13,
+                  "endLine": 108,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 62,
+                  "endLine": 108,
+                  "endColumn": 64
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 13,
+                  "endLine": 120,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 64,
+                  "endLine": 120,
+                  "endColumn": 66
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 17,
+                  "endLine": 123,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 13,
+                  "endLine": 126,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 64,
+                  "endLine": 126,
+                  "endColumn": 66
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 13,
+                  "endLine": 137,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 64,
+                  "endLine": 137,
+                  "endColumn": 66
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 17,
+                  "endLine": 140,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 13,
+                  "endLine": 143,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 64,
+                  "endLine": 143,
+                  "endColumn": 66
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 9,
+                  "endLine": 150,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+2 (incl 1 for nesting)",
+              "11": "+1",
+              "12": "+1",
+              "13": "+1",
+              "14": "+1",
+              "15": "+2 (incl 1 for nesting)",
+              "16": "+1",
+              "17": "+1",
+              "18": "+1",
+              "2": "+1",
+              "3": "+1",
+              "4": "+1",
+              "5": "+1",
+              "6": "+1",
+              "7": "+1",
+              "8": "+1",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 20,
+                  "endLine": 36,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1413",
+          "level": "warning",
+          "message": "Use trailing comma in multi-line initializers",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 21,
+                  "endLine": 57,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 34,
+                  "endLine": 41,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 17,
+                  "endLine": 48,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 17,
+                  "endLine": 52,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1501",
+          "level": "warning",
+          "message": "Statement should not be on a single line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 25,
+                  "endLine": 35,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1501",
+          "level": "warning",
+          "message": "Statement should not be on a single line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 57,
+                  "endLine": 35,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1503",
+          "level": "warning",
+          "message": "Braces should not be omitted",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 42,
+                  "endLine": 28,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 30,
+                  "endLine": 28,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 38,
+                  "endLine": 30,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 34,
+                  "endLine": 35,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 27,
+                  "endLine": 64,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 20,
+                  "endLine": 43,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1860",
+          "level": "note",
+          "message": "Prefer comparing 'Count' to 0 rather than using 'Any()', both for clarity and for performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/StudyService.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 20,
+                  "endLine": 65,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "DiagnosticPropertyKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/AuthService.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 24,
+                  "endLine": 19,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Application/Services/AuthService.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 17,
+                  "endLine": 24,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 23,
+                  "endLine": 66,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 13,
+                  "endLine": 68,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 23,
+                  "endLine": 48,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 32,
+                  "endLine": 50,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 43,
+                  "endLine": 50,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1860",
+          "level": "note",
+          "message": "Prefer comparing 'Count' to 0 rather than using 'Any()', both for clarity and for performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 25,
+                  "endLine": 49,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "DiagnosticPropertyKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "SA1400",
+          "level": "warning",
+          "message": "Element 'ShowLoginMenu' should declare an access modifier",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 17,
+                  "endLine": 39,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1400",
+          "level": "warning",
+          "message": "Element 'Main' should declare an access modifier",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 17,
+                  "endLine": 12,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 23,
+                  "endLine": 55,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 17,
+                  "endLine": 60,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 44,
+                  "endLine": 73,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 41,
+                  "endLine": 74,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1101",
+          "level": "warning",
+          "message": "Prefix local calls with this",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Infrastructure/Data/CsvRepositoryBase.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 32,
+                  "endLine": 75,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1503",
+          "level": "warning",
+          "message": "Braces should not be omitted",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 44,
+                  "endLine": 123,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1503",
+          "level": "warning",
+          "message": "Braces should not be omitted",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 40,
+                  "endLine": 140,
+                  "endColumn": 98
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1520",
+          "level": "warning",
+          "message": "Use braces consistently",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 32,
+                  "endLine": 97,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1400",
+          "level": "warning",
+          "message": "Element 'ShowMainMenu' should declare an access modifier",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 17,
+                  "endLine": 70,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1107",
+          "level": "warning",
+          "message": "Code should not contain multiple statements on one line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 43,
+                  "endLine": 102,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1107",
+          "level": "warning",
+          "message": "Code should not contain multiple statements on one line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 42,
+                  "endLine": 103,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1107",
+          "level": "warning",
+          "message": "Code should not contain multiple statements on one line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 50,
+                  "endLine": 104,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1107",
+          "level": "warning",
+          "message": "Code should not contain multiple statements on one line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 42,
+                  "endLine": 110,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1107",
+          "level": "warning",
+          "message": "Code should not contain multiple statements on one line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 43,
+                  "endLine": 111,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1107",
+          "level": "warning",
+          "message": "Code should not contain multiple statements on one line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 44,
+                  "endLine": 112,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1107",
+          "level": "warning",
+          "message": "Code should not contain multiple statements on one line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 46,
+                  "endLine": 128,
+                  "endColumn": 86
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1107",
+          "level": "warning",
+          "message": "Code should not contain multiple statements on one line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 49,
+                  "endLine": 129,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1107",
+          "level": "warning",
+          "message": "Code should not contain multiple statements on one line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 44,
+                  "endLine": 130,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA1107",
+          "level": "warning",
+          "message": "Code should not contain multiple statements on one line",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/vadim/Documents/OPAM/Lecturers_work/Lecturers_work/Program.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 64,
+                  "endLine": 131,
+                  "endColumn": 105
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SA0001",
+          "level": "warning",
+          "message": "XML comment analysis is disabled due to project configuration",
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1860": {
+          "id": "CA1860",
+          "shortDescription": "Avoid using 'Enumerable.Any()' extension method",
+          "fullDescription": "Prefer using 'IsEmpty', 'Count' or 'Length' properties whichever available, rather than calling 'Enumerable.Any()'. The intent is clearer and it is more performant than using 'Enumerable.Any()' extension method.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1860",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS0105": {
+          "id": "CS0105",
+          "shortDescription": "Using directive appeared previously in this namespace",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0105)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8600": {
+          "id": "CS8600",
+          "shortDescription": "Converting null literal or possible null value to non-nullable type.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8600)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Possible null reference return.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8604": {
+          "id": "CS8604",
+          "shortDescription": "Possible null reference argument.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8604)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8619": {
+          "id": "CS8619",
+          "shortDescription": "Nullability of reference types in value doesn't match target type.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8619)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8625": {
+          "id": "CS8625",
+          "shortDescription": "Cannot convert null literal to non-nullable reference type.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8625)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1118": {
+          "id": "S1118",
+          "shortDescription": "Utility classes should not have public constructors",
+          "fullDescription": "Whenever there are portions of code that are duplicated and do not depend on the state of their container class, they can be centralized inside a \"utility class\". A utility class is a class that only has static members, hence it should not be instantiated.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1699": {
+          "id": "S1699",
+          "shortDescription": "Constructors should only call non-overridable methods",
+          "fullDescription": "Calling an overridable method from a constructor could result in failures or strange behaviors when instantiating a subclass which overrides the method.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1699",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2190": {
+          "id": "S2190",
+          "shortDescription": "Loops and recursions should not be infinite",
+          "fullDescription": "Having an infinite loop or recursion will lead to a program failure or a program never finishing the execution.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2190",
+          "properties": {
+            "category": "Blocker Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2955": {
+          "id": "S2955",
+          "shortDescription": "Generic parameters not constrained to reference types should not be compared to \"null\"",
+          "fullDescription": "In C#, without constraints on a generic type parameter, both reference and value types can be passed. However, comparing this type parameter to null can be misleading as value types, like struct, can never be null.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2955",
+          "properties": {
+            "category": "Minor Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "This rule raises an issue when the code cognitive complexity of a function is above a certain threshold.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3903": {
+          "id": "S3903",
+          "shortDescription": "Types should be defined in named namespaces",
+          "fullDescription": "Types are declared in namespaces in order to prevent name collisions and as a way to organize them into the object hierarchy. Types that are defined outside any named namespace are in a global namespace that cannot be referenced in code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "SA0001": {
+          "id": "SA0001",
+          "shortDescription": "XML comment analysis disabled",
+          "fullDescription": "XML comment analysis can only be performed when the project is configured to parse documentation comments. To enable this functionality, update the project to produce an XML documentation file as part of the build.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA0001.md",
+          "properties": {
+            "category": "StyleCop.CSharp.SpecialRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1101": {
+          "id": "SA1101",
+          "shortDescription": "Prefix local calls with this",
+          "fullDescription": "A call to an instance member of the local class or a base class is not prefixed with 'this.', within a C# code file.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1101.md",
+          "properties": {
+            "category": "StyleCop.CSharp.ReadabilityRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1107": {
+          "id": "SA1107",
+          "shortDescription": "Code should not contain multiple statements on one line",
+          "fullDescription": "The C# code contains more than one statement on a single line.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1107.md",
+          "properties": {
+            "category": "StyleCop.CSharp.ReadabilityRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1127": {
+          "id": "SA1127",
+          "shortDescription": "Generic type constraints should be on their own line",
+          "fullDescription": "Each type constraint clause for a generic type parameter should be listed on a line of code by itself.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1127.md",
+          "properties": {
+            "category": "StyleCop.CSharp.ReadabilityRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1128": {
+          "id": "SA1128",
+          "shortDescription": "Put constructor initializers on their own line",
+          "fullDescription": "A constructor initializer, including the colon character, should be on its own line.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1128.md",
+          "properties": {
+            "category": "StyleCop.CSharp.ReadabilityRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1136": {
+          "id": "SA1136",
+          "shortDescription": "Enum values should be on separate lines",
+          "fullDescription": "Enum values should be placed on their own lines for maximum readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1136.md",
+          "properties": {
+            "category": "StyleCop.CSharp.ReadabilityRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1200": {
+          "id": "SA1200",
+          "shortDescription": "Using directives should be placed correctly",
+          "fullDescription": "A C# using directive is placed outside of a namespace element.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1200.md",
+          "properties": {
+            "category": "StyleCop.CSharp.OrderingRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1201": {
+          "id": "SA1201",
+          "shortDescription": "Elements should appear in the correct order",
+          "fullDescription": "An element within a C# code file is out of order in relation to the other elements in the code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1201.md",
+          "properties": {
+            "category": "StyleCop.CSharp.OrderingRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1202": {
+          "id": "SA1202",
+          "shortDescription": "Elements should be ordered by access",
+          "fullDescription": "An element within a C# code file is out of order in relation to other elements in the code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1202.md",
+          "properties": {
+            "category": "StyleCop.CSharp.OrderingRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1210": {
+          "id": "SA1210",
+          "shortDescription": "Using directives should be ordered alphabetically by namespace",
+          "fullDescription": "The using directives within a C# code file are not sorted alphabetically by namespace.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1210.md",
+          "properties": {
+            "category": "StyleCop.CSharp.OrderingRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1309": {
+          "id": "SA1309",
+          "shortDescription": "Field names should not begin with underscore",
+          "fullDescription": "A field name in C# begins with an underscore.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1309.md",
+          "properties": {
+            "category": "StyleCop.CSharp.NamingRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1400": {
+          "id": "SA1400",
+          "shortDescription": "Access modifier should be declared",
+          "fullDescription": "The access modifier for a C# element has not been explicitly defined.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1400.md",
+          "properties": {
+            "category": "StyleCop.CSharp.MaintainabilityRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1401": {
+          "id": "SA1401",
+          "shortDescription": "Fields should be private",
+          "fullDescription": "A field within a C# class has an access modifier other than private.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1401.md",
+          "properties": {
+            "category": "StyleCop.CSharp.MaintainabilityRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1413": {
+          "id": "SA1413",
+          "shortDescription": "Use trailing comma in multi-line initializers",
+          "fullDescription": "A multi-line initializer in a C# code file should use a comma on the last line.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1413.md",
+          "properties": {
+            "category": "StyleCop.CSharp.ReadabilityRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1501": {
+          "id": "SA1501",
+          "shortDescription": "Statement should not be on a single line",
+          "fullDescription": "A C# statement containing opening and closing braces is written completely on a single line.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1501.md",
+          "properties": {
+            "category": "StyleCop.CSharp.LayoutRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1502": {
+          "id": "SA1502",
+          "shortDescription": "Element should not be on a single line",
+          "fullDescription": "A C# element containing opening and closing braces is written completely on a single line.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1502.md",
+          "properties": {
+            "category": "StyleCop.CSharp.LayoutRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1503": {
+          "id": "SA1503",
+          "shortDescription": "Braces should not be omitted",
+          "fullDescription": "The opening and closing braces for a C# statement have been omitted.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1503.md",
+          "properties": {
+            "category": "StyleCop.CSharp.LayoutRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1513": {
+          "id": "SA1513",
+          "shortDescription": "Closing brace should be followed by blank line",
+          "fullDescription": "A closing brace within a C# element, statement, or expression is not followed by a blank line.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1513.md",
+          "properties": {
+            "category": "StyleCop.CSharp.LayoutRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1516": {
+          "id": "SA1516",
+          "shortDescription": "Elements should be separated by blank line",
+          "fullDescription": "Adjacent C# elements are not separated by a blank line.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1516.md",
+          "properties": {
+            "category": "StyleCop.CSharp.LayoutRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1520": {
+          "id": "SA1520",
+          "shortDescription": "Use braces consistently",
+          "fullDescription": "The opening and closing braces of a chained if/else if/else construct were included for some clauses, but omitted for others.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1520.md",
+          "properties": {
+            "category": "StyleCop.CSharp.LayoutRules",
+            "isEnabledByDefault": true
+          }
+        },
+        "SA1633": {
+          "id": "SA1633",
+          "shortDescription": "File should have header",
+          "fullDescription": "A C# code file is missing a standard file header.",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1633.md",
+          "properties": {
+            "category": "StyleCop.CSharp.DocumentationRules",
+            "isEnabledByDefault": true
+          }
+        }
+      }
+    }
+  ]
+}

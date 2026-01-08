@@ -1,0 +1,16 @@
+v
+kC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturers_work.AssemblyInfo.csutf-8†
+{C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8x
+mC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturers_work.GlobalUsings.g.csutf-8O
+FC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Program.csutf-8j
+aC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\UserRepository.csutf-8l
+cC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\RecordRepository.csutf-8m
+dC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CsvRepositoryBase.csutf-8l
+cC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CourseRepository.csutf-8b
+YC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Interface\IRepository.csutf-8^
+UC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Interface\IEntity.csutf-8Z
+QC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.csutf-8\
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.csutf-8\
+SC:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.csutf-8i
+`C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\StudyService.csutf-8h
+_C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\AuthService.csutf-8

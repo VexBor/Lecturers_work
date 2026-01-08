@@ -3,125 +3,14 @@ using System.Text;
 using Lecturers_work.Application.Services;
 using Lecturers_work.Core.Entities;
 using Lecturers_work.Infrastructure.Data;
+using Spectre.Console;
 
 class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
-<<<<<<< Updated upstream
-        
-        public static void Main(string[] args)
-        {
-            string name = @"
- __      __          _____ 
- \ \    / /         / ____|                                          
-  \ \  / /  __  __ | |        ___    _   _   _ __   ___    ___   ___ 
-   \ \/ /   \ \/ / | |       / _ \  | | | | | '__| / __|  / _ \ / __|
-    \  /     >  <  | |____  | (_) | | |_| | | |    \__ \ |  __/ \__ \
-     \/     /_/\_\  \_____|  \___/   \__,_| |_|    |___/  \___| |___/";
+        Console.OutputEncoding = Encoding.UTF8;
 
-            int totalPrice;
-            double finishPrice;
-            int mathPrice = 849;
-            int ukrLanguagesPrice = 549;
-            int literaturePrice = 649;
-            int historyPrice = 1049;
-            int phisicsPrice = 1495;
-            int geographyPrice = 789;
-            
-            double randomDiscount = new Random().NextDouble() * 10;
-            double totalDiscount = Math.Round(randomDiscount, 2);
-            double discountCount;
-            
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine(name +"\n");
-            Console.ResetColor();
-
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("Список курсів: \n");
-            Console.ResetColor();
-            
-            Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine($"° Математика (Мельник Олександр Іванович) - {mathPrice} грн/міс");
-            Console.WriteLine($"° Українська мова (Шевченко Тетяна Петрівна) - {ukrLanguagesPrice} грн/міс");
-            Console.WriteLine($"° Українська література (Коваленко Андрій Васильович) - {literaturePrice} грн/міс");
-            Console.WriteLine($"° Історія України (Бондаренко Наталія Миколаївна) - {historyPrice} грн/міс");
-            Console.WriteLine($"° Фізика (Ткаченко Сергій Олександрович) - {phisicsPrice} грн/міс");
-            Console.WriteLine($"° Географія (Ковальчук Ірина Дмитрівна) - {geographyPrice} грн/міс \n");
-            Console.ResetColor();
-
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Для продовження натисніть будь-яку клавішу. ");
-            Console.ReadKey();
-            Console.WriteLine("\n");
-            Console.ResetColor();
-
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("Максимальна тривалість навчання 12 місяців.");
-            Console.WriteLine("Оберіть бажану тривалість навчання (місяців): \n");
-            Console.ResetColor();
-
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Write("Математика: ");
-            Console.ForegroundColor = ConsoleColor.Gray;
-            byte mounthsMath = Convert.ToByte(Console.ReadLine());
-            Console.ResetColor();
-            
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Write("Українська мова: ");
-            Console.ForegroundColor = ConsoleColor.Gray;
-            byte monthsUrkLanguages = Convert.ToByte(Console.ReadLine());
-            Console.ResetColor();
-            
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Write("Українська література: ");
-            Console.ForegroundColor = ConsoleColor.Gray;
-            byte mounthsLiterature = Convert.ToByte(Console.ReadLine());
-            Console.ResetColor();
-            
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Write("Історія України: ");
-            Console.ForegroundColor = ConsoleColor.Gray;
-            byte mounthsHistory = Convert.ToByte(Console.ReadLine());
-            Console.ResetColor();
-            
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Write("Фізика: ");
-            Console.ForegroundColor = ConsoleColor.Gray;
-            byte mounthsPhisics = Convert.ToByte(Console.ReadLine());
-            Console.ResetColor();
-            
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Write("Географія: ");
-            Console.ForegroundColor = ConsoleColor.Gray;
-            byte mounthsGeography = Convert.ToByte(Console.ReadLine());
-            Console.ResetColor();
-
-            totalPrice = mounthsMath * mathPrice + monthsUrkLanguages * ukrLanguagesPrice 
-                                                 + mounthsLiterature * literaturePrice + mounthsHistory * historyPrice 
-                                                 + mounthsPhisics * phisicsPrice +  mounthsGeography * geographyPrice;
-            discountCount = Math.Round(totalPrice * (totalDiscount / 100), 2);
-            finishPrice = totalPrice - discountCount;
-
-            Console.WriteLine();
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
-            Console.Write("Загальна сума: ");
-            Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine(totalPrice + " грн");
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
-            Console.Write("Знижка у відсотках :");
-            Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine(totalDiscount + " %");
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
-            Console.Write("Знижка в гривнях: ");
-            Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine(discountCount + " грн");
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.Write("\nСума зі знижкою: ");
-            Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine(finishPrice + " грн");
-            Console.ResetColor();
-=======
         // 1. Ініціалізація
         var userRepo = new UserRepository("users.csv");
         var courseRepo = new CourseRepository("courses.csv");
@@ -130,48 +19,67 @@ class Program
         var authService = new AuthService(userRepo);
         var studyService = new StudyService(courseRepo, recordRepo);
 
-        // 2. Запуск меню
         while (true)
         {
             if (authService.CurrentUser == null)
+            {
                 ShowLoginMenu(authService);
+            }
             else
+            {
                 ShowMainMenu(authService, studyService);
-
+            }
         }
     }
 
     static void ShowLoginMenu(AuthService auth)
     {
-        Console.Clear();
-        Console.WriteLine("=== Вхід ===");
-        Console.WriteLine("1. Увійти");
-        Console.WriteLine("2. Зареєструватися");
-        Console.WriteLine("3. Вихід");
-        Console.Write("> ");
+        Title();
+        var choice = AnsiConsole.Prompt(
+            new SelectionPrompt<string>()
+                .PageSize(5)
+                .AddChoices("Увійти", "Реєстрація", "Вихід"));
 
-        switch (Console.ReadLine())
+        switch (choice)
         {
-            case "1":
-                Console.Write("Email: "); var e = Console.ReadLine();
-                Console.Write("Пароль: "); var p = Console.ReadLine();
-                if (!auth.Login(e, p))
+            case "Увійти":
+                var email = AnsiConsole.Ask<string>(" [grey]Email:[/]");
+                var pass = AnsiConsole.Prompt(new TextPrompt<string>(" [grey]Пароль:[/]").Secret());
+
+                if (!auth.Login(email, pass))
                 {
-                    Console.WriteLine("Помилка! Натисніть Enter.");
-                    Console.ReadLine();
+                    AnsiConsole.MarkupLine("[red]✕ Невірний логін або пароль[/]");
                 }
+
+                Pause();
                 break;
-            case "2":
-                Console.Write("Ім'я: "); string n = Console.ReadLine();
-                Console.Write("Email: "); string em = Console.ReadLine();
-                Console.Write("Пароль: "); string ps = Console.ReadLine();
-                UserRole r = UserRole.Student;
-                auth.Register(n, em, ps, r);
-                Console.WriteLine("Користувача додано! Натисніть Enter.");
-                Console.ReadLine();
-                auth.Login(em, ps);
+            case "Реєстрація":
+                AnsiConsole.MarkupLine("[teal]--- Створення нового акаунту ---[/]");
+
+                var name = AnsiConsole.Ask<string>("Ваше ім'я:");
+                var newEmail = AnsiConsole.Ask<string>("Email:");
+                var newPass = AnsiConsole.Prompt(new TextPrompt<string>("Пароль:").Secret());
+
+                var roleName = AnsiConsole.Prompt(
+                    new SelectionPrompt<string>()
+                        .Title("Хто ви?")
+                        .AddChoices("Студент", "Викладач"));
+
+                var role = roleName == "Викладач" ? UserRole.Teacher : UserRole.Student;
+
+                try
+                {
+                    auth.Register(name, newEmail, newPass, role);
+                    Success($"Акаунт створено! Тепер увійдіть як {roleName}.");
+                }
+                catch (Exception ex)
+                {
+                    AnsiConsole.MarkupLine($"[red]Помилка реєстрації: {ex.Message}[/]");
+                    Pause();
+                }
+
                 break;
-            case "3":
+            case "Вихід":
                 Environment.Exit(0);
                 break;
         }
@@ -179,99 +87,136 @@ class Program
 
     static void ShowMainMenu(AuthService auth, StudyService study)
     {
-        Console.Clear();
-        Console.WriteLine($"Вітаємо, {auth.CurrentUser.Name} ({auth.CurrentUser.Role})");
+        Title();
+        AnsiConsole.MarkupLine($" Користувач: [bold white]{auth.CurrentUser.Name}[/] | Роль: [teal]{auth.CurrentUser.Role}[/]");
+        AnsiConsole.WriteLine();
+
+        var menuItems = new List<string>();
 
         if (auth.CurrentUser.Role == UserRole.Admin)
         {
-            Console.WriteLine("1. Створити курс");
-            Console.WriteLine("2. Зареєструвати нового користувача");
+            menuItems.AddRange(new[] { "Створити курс", "Додати користувача" });
         }
         else if (auth.CurrentUser.Role == UserRole.Teacher)
         {
-            Console.WriteLine("1. Мої курси");
-            Console.WriteLine("2. Поставити оцінку");
+            menuItems.AddRange(new[] { "Мої курси", "Створити курс", "Поставити оцінку" });
         }
         else if (auth.CurrentUser.Role == UserRole.Student)
         {
-            Console.WriteLine("1. Список курсів");
-            Console.WriteLine("2. Моя успішність");
-            Console.WriteLine("3. Інформація про сервіс");
+            menuItems.AddRange(new[] { "Всі курси", "Моя успішність" });
         }
 
-        Console.WriteLine("0. Вихід з акаунту");
-        Console.Write("> ");
-        string choice = Console.ReadLine();
+        menuItems.Add("Вийти");
+
+        var selection = AnsiConsole.Prompt(
+            new SelectionPrompt<string>()
+                .AddChoices(menuItems));
 
         try
         {
-            if (choice == "0") auth.Logout();
+            if (selection == "Вийти")
+            {
+                auth.Logout();
+                return;
+            }
 
             // Адмін
-            else if (auth.CurrentUser.Role == UserRole.Admin && choice == "1")
+            if (selection == "Створити курс" && auth.CurrentUser.Role == UserRole.Admin)
             {
-                Console.Write("Назва: "); string t = Console.ReadLine();
-                Console.Write("Опис: "); string d = Console.ReadLine();
-                Console.Write("ID викладача: "); int tid = int.Parse(Console.ReadLine());
-                Console.Write("Ціна на курс: "); int price = int.Parse(Console.ReadLine());
-                study.CreateCourse(t, d, tid, price);
-                Console.WriteLine("Створено!");
+                var title = AnsiConsole.Ask<string>("Назва:");
+                var desc = AnsiConsole.Ask<string>("Опис:");
+                var tid = AnsiConsole.Ask<int>("ID Викладача:");
+                study.CreateCourse(title, desc, tid);
+                Success("Курс створено");
             }
-            else if (auth.CurrentUser.Role == UserRole.Admin && choice == "2")
+            else if (selection == "Додати користувача")
             {
-                Console.Write("Ім'я: "); string n = Console.ReadLine();
-                Console.Write("Email: "); string em = Console.ReadLine();
-                Console.Write("Пароль: "); string ps = Console.ReadLine();
-                Console.Write("Роль (1-Викладач, 2-Студент): ");
-                UserRole r = (UserRole)int.Parse(Console.ReadLine());
-                auth.Register(n, em, ps, r);
-                Console.WriteLine("Користувача додано!");
+                var name = AnsiConsole.Ask<string>("Ім'я:");
+                var email = AnsiConsole.Ask<string>("Email:");
+                var pass = AnsiConsole.Prompt(new TextPrompt<string>("Пароль:").Secret());
+                var role = AnsiConsole.Prompt(new SelectionPrompt<UserRole>().AddChoices(UserRole.Teacher, UserRole.Student));
+
+                auth.Register(name, email, pass, role);
+                Success($"Користувача {name} додано");
             }
 
             // Викладач
-            else if (auth.CurrentUser.Role == UserRole.Teacher && choice == "1")
+            else if (selection == "Мої курси")
             {
                 var courses = study.GetCoursesByTeacher(auth.CurrentUser.Id);
-                foreach (var c in courses) Console.WriteLine($"ID: {c.Id} | {c.Title}");
-                Console.ReadLine();
+                PrintTable(courses, "Мої курси");
             }
-            else if (auth.CurrentUser.Role == UserRole.Teacher && choice == "2")
+            else if (selection == "Створити курс")
             {
-                Console.Write("ID курсу: "); int cid = int.Parse(Console.ReadLine());
-                Console.Write("ID студента: "); int sid = int.Parse(Console.ReadLine());
-                Console.Write("Оцінка: "); int gr = int.Parse(Console.ReadLine());
-                Console.Write("Був присутній (true/false): "); bool pr = bool.Parse(Console.ReadLine());
-                study.GradeStudent(cid, sid, gr, pr);
-                Console.WriteLine("Оцінку збережено!");
+                var title = AnsiConsole.Ask<string>("Назва:");
+                var desc = AnsiConsole.Ask<string>("Опис:");
+                study.CreateCourse(title, desc, auth.CurrentUser.Id);
+                Success("Курс створено");
+            }
+            else if (selection == "Поставити оцінку")
+            {
+                var cid = AnsiConsole.Ask<int>("ID Курсу:");
+                var sid = AnsiConsole.Ask<int>("ID Студента:");
+                var grade = AnsiConsole.Ask<int>("Оцінка:");
+                var present = AnsiConsole.Confirm("Був присутній?");
+
+                study.GradeStudent(cid, sid, grade, present);
+                Success("Журнал оновлено");
             }
 
             // Студент
-            else if (auth.CurrentUser.Role == UserRole.Student && choice == "1")
+            else if (selection == "Всі курси")
             {
-                var all = study.GetAllCourses();
-                foreach (var c in all) Console.WriteLine($"{c.Id}. {c.Title} - {c.Description}");
-                Console.ReadLine();
+                var courses = study.GetAllCourses();
+                PrintTable(courses, "Список курсів");
             }
-            else if (auth.CurrentUser.Role == UserRole.Student && choice == "2")
+            else if (selection == "Моя успішність")
             {
                 double avg = study.GetStudentAverageGrade(auth.CurrentUser.Id);
-                Console.WriteLine($"Ваш середній бал: {avg:F2}");
-                Console.ReadLine();
+                var color = avg >= 60 ? "green" : "red";
+                AnsiConsole.MarkupLine($"Середній бал: [{color} bold]{avg:F1}[/]");
+                Pause();
             }
-            else if (auth.CurrentUser.Role == UserRole.Student && choice == "3")
-            {
-                Console.WriteLine("Оформлюючи одну підписку, ви автоматично отримуєте ключі від" +
-                    "\n усіх наших курсів — як старих, так і тих, \nщо вийдуть у майбутньому (поки діє підписка).");
-
-                Console.WriteLine("Натисніть Enter...");
-                Console.ReadLine();
-            }
->>>>>>> Stashed changes
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Помилка: {ex.Message}");
-            Console.ReadLine();
+            AnsiConsole.MarkupLine($"[red]Помилка: {ex.Message}[/]");
+            Pause();
         }
+    }
+
+    static void PrintTable(IEnumerable<dynamic> items, string title)
+    {
+        var table = new Table().Border(TableBorder.Minimal).Title($"[grey]{title}[/]");
+        table.AddColumn("ID");
+        table.AddColumn("Назва");
+        table.AddColumn("Опис");
+
+        foreach (var item in items)
+        {
+            table.AddRow((string)item.Id.ToString(), (string)item.Title.ToString(), (string)item.Description.ToString());
+        }
+
+        AnsiConsole.Write(table);
+        Pause();
+    }
+
+    private static void Success(string msg)
+    {
+        AnsiConsole.MarkupLine($"[green]✓ {msg}[/]");
+        Pause();
+    }
+
+    private static void Pause()
+    {
+        AnsiConsole.Markup("[grey]Enter щоб продовжити...[/]");
+        Console.ReadLine();
+        Title();
+    }
+
+    private static void Title()
+    {
+        Console.Clear();
+        AnsiConsole.Write(new Rule("[teal]VxCourses[/]").RuleStyle("grey"));
     }
 }

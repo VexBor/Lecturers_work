@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tts0+2c8f8c=",
+  "dgSpecHash": "LeHBA068OVk=",
   "success": true,
   "projectFilePath": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Lecturers_work.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vadim\\.nuget\\packages\\spectre.console\\0.54.0\\spectre.console.0.54.0.nupkg.sha512",
+    "C:\\Users\\vadim\\.nuget\\packages\\spectre.console.cli\\0.53.1\\spectre.console.cli.0.53.1.nupkg.sha512",
+    "C:\\Users\\vadim\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
   "logs": []
 }

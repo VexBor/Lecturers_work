@@ -1,0 +1,17 @@
+﻿C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\AuthService.cs
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Application\Services\StudyService.cs
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Course.cs
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\Record.cs
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Entities\User.cs
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Interface\IEntity.cs
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Core\Interface\IRepository.cs
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CourseRepository.cs
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\CsvRepositoryBase.cs
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\RecordRepository.cs
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Infrastructure\Data\UserRepository.cs
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\Program.cs
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\.editorconfic
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\courses.csv
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\records.csv
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\stylecop.json
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\users.csv
