@@ -1,19 +1,21 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Lecturers_work.Core.Entities;
-using Lecturers_work.Core.Interfaces;
-
-namespace Lecturers_work.Application.Services
+﻿namespace Lecturers_work.Application.Services
 {
+    using System.Collections.Generic;
+    using System.Linq;
+    using Lecturers_work.Core.Entities;
+    using Lecturers_work.Core.Interfaces;
+
     public class StudyService
     {
         private readonly IRepository<Course> _courseRepo;
         private readonly IRepository<Record> _recordRepo;
+        private readonly IRepository<User> _userRepo;
 
-        public StudyService(IRepository<Course> courseRepo, IRepository<Record> recordRepo)
+        public StudyService(IRepository<Course> courseRepo, IRepository<Record> recordRepo, IRepository<User> userRepo)
         {
             _courseRepo = courseRepo;
             _recordRepo = recordRepo;
+            _userRepo = userRepo;
         }
 
         public void CreateCourse(string title, string description, int teacherId)
@@ -63,6 +65,17 @@ namespace Lecturers_work.Application.Services
         {
             var records = _recordRepo.GetAll().Where(r => r.StudentId == studentId).ToList();
             return records.Any() ? records.Average(r => r.Grade) : 0;
+        }
+
+        public List<User> GetAllUsers()
+        {
+            return _userRepo.GetAll();
+        }
+
+        public List<User> GetUsersByRole(UserRole role)
+        {
+            var users = _userRepo.GetAll().Where(r => r.Role == role);
+            return users.ToList();
         }
     }
 }

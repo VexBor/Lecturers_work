@@ -1,4 +1,4 @@
-[*.cs]
+﻿[*.cs]
 
 # ===============================
 # Documentation
@@ -34,3 +34,16 @@ dotnet_diagnostic.SA1124.severity = warning
 # ===============================
 dotnet_diagnostic.SA1101.severity = none # this.
 dotnet_diagnostic.SA1413.severity = none # trailing commas
+dotnet_diagnostic.SA1502.severity = none
+dotnet_diagnostic.SA1309.severity = none
+dotnet_diagnostic.SA1633.severity = none
+
+# CS8619: Nullability of reference types in value doesn't match target type.
+dotnet_diagnostic.CS8619.severity = none
+
+# SA1202: Elements should be ordered by access
+dotnet_diagnostic.SA1202.severity = none
+
+# CS8603: Possible null reference return.
+dotnet_diagnostic.CS8603.severity = none
+dotnet_diagnostic.CS8602.severity = none

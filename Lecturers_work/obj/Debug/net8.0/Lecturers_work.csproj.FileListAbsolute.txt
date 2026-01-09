@@ -27,3 +27,8 @@ C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\ru\
 C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\sv\Spectre.Console.Cli.resources.dll
 C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\zh-Hans\Spectre.Console.Cli.resources.dll
 C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\obj\Debug\net8.0\Lecturer.225A82C1.Up2Date
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\DotNetEnv.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\vadim\Documents\OPAM\Lecturers_work\Lecturers_work\bin\Debug\net8.0\Sprache.dll

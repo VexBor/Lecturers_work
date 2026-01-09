@@ -3,3 +3,6 @@ Id,CourseId,StudentId,Grade,IsPresent
 2,0,0,0,True
 3,3,1,10,True
 4,3,4,12,True
+5,4,1,10,True
+6,5,4,12,True
+7,6,4,10,True

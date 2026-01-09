@@ -4,7 +4,8 @@
 
     public class RecordRepository : CsvRepositoryBase<Record>
     {
-        public RecordRepository(string path) : base(path) { }
+        public RecordRepository(string path)
+            : base(path) { }
 
         protected override string GetHeader() => "Id,CourseId,StudentId,Grade,IsPresent";
 

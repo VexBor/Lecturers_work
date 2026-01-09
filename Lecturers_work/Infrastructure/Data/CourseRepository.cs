@@ -1,10 +1,11 @@
-﻿using Lecturers_work.Core.Entities;
-
-namespace Lecturers_work.Infrastructure.Data
+﻿namespace Lecturers_work.Infrastructure.Data
 {
+    using Lecturers_work.Core.Entities;
+
     public class CourseRepository : CsvRepositoryBase<Course>
     {
-        public CourseRepository(string path) : base(path) { }
+        public CourseRepository(string path)
+            : base(path) { }
 
         protected override string GetHeader() => "Id,Title,Description,TeacherId";
 

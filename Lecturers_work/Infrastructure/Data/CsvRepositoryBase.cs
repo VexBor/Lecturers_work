@@ -1,14 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using Lecturers_work.Core.Interfaces;
-
-namespace Lecturers_work.Infrastructure.Data
+﻿namespace Lecturers_work.Infrastructure.Data
 {
-    public abstract class CsvRepositoryBase<T> : IRepository<T> where T : IEntity
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+    using Lecturers_work.Core.Interfaces;
+
+    public abstract class CsvRepositoryBase<T> : IRepository<T>
+        where T : IEntity
     {
-        protected readonly string _filePath;
+        private readonly string _filePath;
 
         protected CsvRepositoryBase(string filePath)
         {
@@ -20,7 +21,9 @@ namespace Lecturers_work.Infrastructure.Data
         }
 
         protected abstract string GetHeader();
+
         protected abstract T FromCsv(string line);
+
         protected abstract string ToCsv(T entity);
 
         public List<T> GetAll()
@@ -35,7 +38,14 @@ namespace Lecturers_work.Infrastructure.Data
                 .Where(x => !string.IsNullOrWhiteSpace(x))
                 .Select(line =>
                 {
-                    try { return FromCsv(line); } catch { return default; }
+                    try
+                    {
+                        return FromCsv(line);
+                    }
+                    catch
+                    {
+                        return default;
+                    }
                 })
                 .Where(x => x != null)
                 .ToList();

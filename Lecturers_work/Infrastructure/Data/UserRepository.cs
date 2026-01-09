@@ -4,7 +4,8 @@
 
     public class UserRepository : CsvRepositoryBase<User>
     {
-        public UserRepository(string path) : base(path) { }
+        public UserRepository(string path)
+            : base(path) { }
 
         protected override string GetHeader() => "Id,Name,Email,Password,Role";
 

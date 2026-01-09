@@ -1,15 +1,22 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
+using DotNetEnv;
 using Lecturers_work.Application.Services;
 using Lecturers_work.Core.Entities;
 using Lecturers_work.Infrastructure.Data;
 using Spectre.Console;
 
-class Program
+internal class Program
 {
     private static void Main(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
+
+        Env.Load();
+
+        string adminPass = Environment.GetEnvironmentVariable("ADMIN_PASS") ?? "admin";
+        string adminEmail = Environment.GetEnvironmentVariable("ADMIN_EMAIL") ?? "admin";
 
         // 1. Ініціалізація
         var userRepo = new UserRepository("users.csv");
@@ -17,7 +24,9 @@ class Program
         var recordRepo = new RecordRepository("records.csv");
 
         var authService = new AuthService(userRepo);
-        var studyService = new StudyService(courseRepo, recordRepo);
+        var studyService = new StudyService(courseRepo, recordRepo, userRepo);
+
+        authService.EnsureAdminCreated(adminEmail, adminPass);
 
         while (true)
         {
@@ -32,7 +41,7 @@ class Program
         }
     }
 
-    static void ShowLoginMenu(AuthService auth)
+    private static void ShowLoginMenu(AuthService auth)
     {
         Title();
         var choice = AnsiConsole.Prompt(
@@ -85,7 +94,7 @@ class Program
         }
     }
 
-    static void ShowMainMenu(AuthService auth, StudyService study)
+    private static void ShowMainMenu(AuthService auth, StudyService study)
     {
         Title();
         AnsiConsole.MarkupLine($" Користувач: [bold white]{auth.CurrentUser.Name}[/] | Роль: [teal]{auth.CurrentUser.Role}[/]");
@@ -134,7 +143,7 @@ class Program
                 var name = AnsiConsole.Ask<string>("Ім'я:");
                 var email = AnsiConsole.Ask<string>("Email:");
                 var pass = AnsiConsole.Prompt(new TextPrompt<string>("Пароль:").Secret());
-                var role = AnsiConsole.Prompt(new SelectionPrompt<UserRole>().AddChoices(UserRole.Teacher, UserRole.Student));
+                var role = AnsiConsole.Prompt(new SelectionPrompt<UserRole>().AddChoices(UserRole.Teacher, UserRole.Student, UserRole.Admin));
 
                 auth.Register(name, email, pass, role);
                 Success($"Користувача {name} додано");
@@ -145,6 +154,7 @@ class Program
             {
                 var courses = study.GetCoursesByTeacher(auth.CurrentUser.Id);
                 PrintTable(courses, "Мої курси");
+                Pause();
             }
             else if (selection == "Створити курс")
             {
@@ -155,13 +165,35 @@ class Program
             }
             else if (selection == "Поставити оцінку")
             {
+                var courses = study.GetCoursesByTeacher(auth.CurrentUser.Id);
+                PrintTable(courses, "Мої курси");
+
+                var students = study.GetUsersByRole(UserRole.Student);
+
+                var table = new Table().Border(TableBorder.Minimal).Title($"[grey]Студенти[/]");
+                table.AddColumn("Id");
+                table.AddColumn("Ім\'я");
+                foreach (var student in students)
+                {
+                    table.AddRow(student.Id.ToString(), student.Name.ToString());
+                }
+
+                AnsiConsole.Write(table);
+
                 var cid = AnsiConsole.Ask<int>("ID Курсу:");
                 var sid = AnsiConsole.Ask<int>("ID Студента:");
                 var grade = AnsiConsole.Ask<int>("Оцінка:");
                 var present = AnsiConsole.Confirm("Був присутній?");
 
-                study.GradeStudent(cid, sid, grade, present);
-                Success("Журнал оновлено");
+                if (courses.Any(c => c.Id == cid) && students.Any(s => s.Id == sid))
+                {
+                    study.GradeStudent(cid, sid, grade, present);
+                    Success("Журнал оновлено");
+                    return;
+                }
+
+                AnsiConsole.MarkupLine($"[red]Помилка: введеного Id не існує[/]");
+                Pause();
             }
 
             // Студент
@@ -169,6 +201,7 @@ class Program
             {
                 var courses = study.GetAllCourses();
                 PrintTable(courses, "Список курсів");
+                Pause();
             }
             else if (selection == "Моя успішність")
             {
@@ -185,7 +218,7 @@ class Program
         }
     }
 
-    static void PrintTable(IEnumerable<dynamic> items, string title)
+    private static void PrintTable(IEnumerable<dynamic> items, string title)
     {
         var table = new Table().Border(TableBorder.Minimal).Title($"[grey]{title}[/]");
         table.AddColumn("ID");
@@ -198,7 +231,6 @@ class Program
         }
 
         AnsiConsole.Write(table);
-        Pause();
     }
 
     private static void Success(string msg)

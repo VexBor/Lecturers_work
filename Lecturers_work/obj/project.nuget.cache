@@ -1,11 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "LeHBA068OVk=",
+  "dgSpecHash": "S6AJLGJpl1k=",
   "success": true,
   "projectFilePath": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Lecturers_work.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vadim\\.nuget\\packages\\dotnetenv\\3.1.1\\dotnetenv.3.1.1.nupkg.sha512",
+    "C:\\Users\\vadim\\.nuget\\packages\\microsoft.extensions.configuration\\1.1.2\\microsoft.extensions.configuration.1.1.2.nupkg.sha512",
+    "C:\\Users\\vadim\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\1.1.2\\microsoft.extensions.configuration.abstractions.1.1.2.nupkg.sha512",
+    "C:\\Users\\vadim\\.nuget\\packages\\microsoft.extensions.primitives\\1.1.1\\microsoft.extensions.primitives.1.1.1.nupkg.sha512",
+    "C:\\Users\\vadim\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\vadim\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\vadim\\.nuget\\packages\\spectre.console\\0.54.0\\spectre.console.0.54.0.nupkg.sha512",
     "C:\\Users\\vadim\\.nuget\\packages\\spectre.console.cli\\0.53.1\\spectre.console.cli.0.53.1.nupkg.sha512",
+    "C:\\Users\\vadim\\.nuget\\packages\\sprache\\2.3.1\\sprache.2.3.1.nupkg.sha512",
     "C:\\Users\\vadim\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
   ],
   "logs": []
