@@ -150,9 +150,15 @@ internal class Program
             // Адмін
             if (selection == "Створити курс" && auth.CurrentUser.Role == UserRole.Admin)
             {
+                var allTeacher = study.GetUsersByRole(UserRole.Teacher);
                 var title = AnsiConsole.Ask<string>("Назва:");
                 var desc = AnsiConsole.Ask<string>("Опис:");
-                var tid = AnsiConsole.Ask<int>("ID Викладача:");
+                var selectedOption = AnsiConsole.Prompt(
+                    new SelectionPrompt<User>()
+                         .Title("Оберіть викладача:")
+                         .AddChoices(allTeacher)
+                         .UseConverter(u => $"{u.Id} - {u.Name}"));
+                var tid = selectedOption.Id;
                 study.CreateCourse(title, desc, tid);
                 Success("Курс створено");
             }
@@ -184,22 +190,20 @@ internal class Program
             else if (selection == "Поставити оцінку")
             {
                 var courses = study.GetCoursesByTeacher(auth.CurrentUser.Id);
-                PrintTable(courses, "Мої курси");
-
                 var students = study.GetUsersByRole(UserRole.Student);
 
-                var table = new Table().Border(TableBorder.Minimal).Title($"[grey]Студенти[/]");
-                table.AddColumn("Id");
-                table.AddColumn("Ім\'я");
-                foreach (var student in students)
-                {
-                    table.AddRow(student.Id.ToString(), student.Name.ToString());
-                }
-
-                AnsiConsole.Write(table);
-
-                var cid = AnsiConsole.Ask<int>("ID Курсу:");
-                var sid = AnsiConsole.Ask<int>("ID Студента:");
+                var selectedOptionCId = AnsiConsole.Prompt(
+                    new SelectionPrompt<Course>()
+                     .Title("Оберіть курс:")
+                    .AddChoices(courses)
+                    .UseConverter(u => $"{u.Title} - {u.Description}"));
+                var selectedOptionSId = AnsiConsole.Prompt(
+                    new SelectionPrompt<User>()
+                     .Title("Оберіть студента:")
+                     .AddChoices(students)
+                                    .UseConverter(u => $"{u.Id} - {u.Name}"));
+                var cid = selectedOptionCId.Id;
+                var sid = selectedOptionSId.Id;
                 var grade = AnsiConsole.Ask<int>("Оцінка:");
                 var present = AnsiConsole.Confirm("Був присутній?");
 
@@ -209,23 +213,33 @@ internal class Program
                     grade = AnsiConsole.Ask<int>("Оцінка:");
                 }
 
-                if (courses.Any(c => c.Id == cid) && students.Any(s => s.Id == sid))
-                {
-                    study.GradeStudent(cid, sid, grade, present);
-                    Success("Журнал оновлено");
-                    return;
-                }
-
-                AnsiConsole.MarkupLine($"[red]Помилка: введеного Id не існує[/]");
-                Pause();
+                study.GradeStudent(cid, sid, grade, present);
+                Success("Журнал успішно оновлено!");
             }
 
             // Студент
             else if (selection == "Всі курси")
             {
                 var courses = study.GetAllCourses();
-                PrintTable(courses, "Список курсів");
-                Pause();
+
+                var search = AnsiConsole.Ask<string>("Введіть назву для пошуку (або 0 щоб показати всі):").ToLower();
+
+                if (search != "0")
+                {
+                    courses = courses.Where(c => c.Title.ToLower().Contains(search)).ToList();
+                }
+
+                if (courses.Count == 0)
+                {
+                    AnsiConsole.MarkupLine($"[red]Не знайдено[/]");
+                    Pause();
+                }
+                else
+                {
+                    PrintTable(courses, "Результати пошуку");
+                    Pause();
+                }
+
             }
             else if (selection == "Моя успішність")
             {
