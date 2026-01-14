@@ -7,3 +7,4 @@ Id,CourseId,StudentId,Grade,IsPresent
 6,5,4,50,True
 7,6,4,50,True
 8,3,5,12,True
+9,4,4,12,True
