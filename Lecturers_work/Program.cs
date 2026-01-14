@@ -2,21 +2,29 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Text;
 using DotNetEnv;
-using Lecturers_work.Application.Services;
-using Lecturers_work.Core.Entities;
-using Lecturers_work.Infrastructure.Data;
 using Spectre.Console;
+using VxCourses.Application.Services;
+using VxCourses.Core.Entities;
+using VxCourses.Infrastructure.Data;
 
+/// <summary>
+/// Головний клас програми, що відповідає за запуск, ініціалізацію сервісів та відображення інтерфейсу користувача (UI).
+/// </summary>
 internal class Program
 {
+    /// <summary>
+    /// Точка входу в програму.
+    /// </summary>
+    /// <param name="args">Не використовуються.</param>
     private static void Main(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
+        Console.InputEncoding = Encoding.UTF8;
 
         Env.Load();
 
-        string adminPass = Environment.GetEnvironmentVariable("ADMIN_PASS") ?? "admin";
-        string adminEmail = Environment.GetEnvironmentVariable("ADMIN_EMAIL") ?? "admin";
+        string adminPass = Environment.GetEnvironmentVariable("ADMIN_PASS") ?? "admin1";
+        string adminEmail = Environment.GetEnvironmentVariable("ADMIN_EMAIL") ?? "admin1";
 
         // 1. Ініціалізація
         var userRepo = new UserRepository("users.csv");
@@ -41,6 +49,11 @@ internal class Program
         }
     }
 
+    /// <summary>
+    /// Відображає меню входу та реєстрації для неавторизованих користувачів.
+    /// </summary>
+    /// <param name="auth">Екземпляр сервісу автентифікації.</param>
+    ///
     private static void ShowLoginMenu(AuthService auth)
     {
         Title();
@@ -94,6 +107,11 @@ internal class Program
         }
     }
 
+    /// <summary>
+    /// Відображає головне меню системи залежно від ролі авторизованого користувача.
+    /// </summary>
+    /// <param name="auth">Екземпляр сервісу автентифікації (для доступу до поточного користувача).</param>
+    /// <param name="study">Екземпляр навчального сервісу (для виконання бізнес-логіки).</param>
     private static void ShowMainMenu(AuthService auth, StudyService study)
     {
         Title();
@@ -185,6 +203,12 @@ internal class Program
                 var grade = AnsiConsole.Ask<int>("Оцінка:");
                 var present = AnsiConsole.Confirm("Був присутній?");
 
+                while (grade > 12 || grade < 1)
+                {
+                    AnsiConsole.MarkupLine("[red]Введена оцінка не коректна.[/]");
+                    grade = AnsiConsole.Ask<int>("Оцінка:");
+                }
+
                 if (courses.Any(c => c.Id == cid) && students.Any(s => s.Id == sid))
                 {
                     study.GradeStudent(cid, sid, grade, present);
@@ -218,6 +242,11 @@ internal class Program
         }
     }
 
+    /// <summary>
+    /// Виводить колекцію даних у вигляді відформатованої таблиці в консоль.
+    /// </summary>
+    /// <param name="items">Колекція об'єктів для відображення.</param>
+    /// <param name="title">Заголовок таблиці.</param>
     private static void PrintTable(IEnumerable<dynamic> items, string title)
     {
         var table = new Table().Border(TableBorder.Minimal).Title($"[grey]{title}[/]");
@@ -233,12 +262,19 @@ internal class Program
         AnsiConsole.Write(table);
     }
 
+    /// <summary>
+    /// Виводить повідомлення про успішне виконання операції зеленим кольором.
+    /// </summary>
+    /// <param name="msg">Текст повідомлення.</param>
     private static void Success(string msg)
     {
         AnsiConsole.MarkupLine($"[green]✓ {msg}[/]");
         Pause();
     }
 
+    /// <summary>
+    /// Зупиняє виконання програми до натискання клавіші Enter.
+    /// </summary>
     private static void Pause()
     {
         AnsiConsole.Markup("[grey]Enter щоб продовжити...[/]");
@@ -246,6 +282,9 @@ internal class Program
         Title();
     }
 
+    /// <summary>
+    /// Очищує консоль та виводить стилізований заголовок програми.
+    /// </summary>
     private static void Title()
     {
         Console.Clear();

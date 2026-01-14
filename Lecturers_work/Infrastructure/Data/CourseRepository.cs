@@ -1,6 +1,6 @@
-﻿namespace Lecturers_work.Infrastructure.Data
+﻿namespace VxCourses.Infrastructure.Data
 {
-    using Lecturers_work.Core.Entities;
+    using VxCourses.Core.Entities;
 
     public class CourseRepository : CsvRepositoryBase<Course>
     {

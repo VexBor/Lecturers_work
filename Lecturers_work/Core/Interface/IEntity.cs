@@ -1,4 +1,4 @@
-﻿namespace Lecturers_work.Core.Interfaces
+﻿namespace VxCourses.Core.Interfaces
 {
     public interface IEntity
     {

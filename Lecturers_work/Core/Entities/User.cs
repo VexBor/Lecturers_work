@@ -1,7 +1,10 @@
-﻿namespace Lecturers_work.Core.Entities
+﻿namespace VxCourses.Core.Entities
 {
-    using Lecturers_work.Core.Interfaces;
+    using VxCourses.Core.Interfaces;
 
+    /// <summary>
+    /// Сутність, що представляє користувача системи.
+    /// </summary>
     public enum UserRole
     {
         Admin,

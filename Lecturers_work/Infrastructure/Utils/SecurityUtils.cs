@@ -1,4 +1,4 @@
-﻿namespace Lecturers_work.Infrastructure.Utils
+﻿namespace VxCourses.Infrastructure.Utils
 {
     using System;
     using System.Collections.Generic;
@@ -7,8 +7,16 @@
     using System.Text;
     using System.Threading.Tasks;
 
+    /// <summary>
+    /// Статичний клас для допоміжних функцій безпеки.
+    /// </summary>
     public static class SecurityUtils
     {
+        /// <summary>
+        /// Хешує вхідний рядок (пароль) за допомогою алгоритму SHA-256.
+        /// </summary>
+        /// <param name="password">Пароль у вигляді відкритого тексту.</param>
+        /// <returns>Рядок, що містить хеш у шістнадцятковому форматі.</returns>
         public static string HashPassword(string password)
         {
             using (var sha256 = SHA256.Create())

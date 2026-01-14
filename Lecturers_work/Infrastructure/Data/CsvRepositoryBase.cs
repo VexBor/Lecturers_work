@@ -1,14 +1,22 @@
-﻿namespace Lecturers_work.Infrastructure.Data
+﻿namespace VxCourses.Infrastructure.Data
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Linq;
-    using Lecturers_work.Core.Interfaces;
+    using VxCourses.Core.Interfaces;
 
+    /// <summary>
+    /// Базовий абстрактний клас репозиторію для роботи з CSV-файлами.
+    /// Реалізує основні CRUD-операції.
+    /// </summary>
+    /// <typeparam name="T">Тип сутності, що наслідується від IEntity.</typeparam>
     public abstract class CsvRepositoryBase<T> : IRepository<T>
         where T : IEntity
     {
+        /// <summary>
+        /// Шлях до файлу бази даних.
+        /// </summary>
         private readonly string _filePath;
 
         protected CsvRepositoryBase(string filePath)
@@ -26,6 +34,10 @@
 
         protected abstract string ToCsv(T entity);
 
+        /// <summary>
+        /// Отримує всі записи з файлу.
+        /// </summary>
+        /// <returns>Список сутностей типу T.</returns>
         public List<T> GetAll()
         {
             if (!File.Exists(_filePath))
@@ -56,6 +68,10 @@
             return GetAll().FirstOrDefault(x => x.Id == id);
         }
 
+        /// <summary>
+        /// Додає нову сутність у файл, автоматично генеруючи новий ID.
+        /// </summary>
+        /// <param name="entity">Об'єкт для додавання.</param>
         public void Add(T entity)
         {
             var all = GetAll();
@@ -63,6 +79,10 @@
             File.AppendAllText(_filePath, ToCsv(entity) + Environment.NewLine);
         }
 
+        /// <summary>
+        /// Оновлює сутність у файлу.
+        /// </summary>
+        /// <param name="entity">Об'єкт для оновлення.</param>
         public void Update(T entity)
         {
             var all = GetAll();
@@ -74,6 +94,10 @@
             }
         }
 
+        /// <summary>
+        /// Видаляє сутність з файлу.
+        /// </summary>
+        /// <param name="id">Об'єкт для видалення.</param>
         public void Delete(int id)
         {
             var all = GetAll();
@@ -81,6 +105,10 @@
             SaveChanges(all);
         }
 
+        /// <summary>
+        /// Збереження змін.
+        /// </summary>
+        /// <param name="items">Список сутностей типу T.</param>
         private void SaveChanges(List<T> items)
         {
             var lines = new List<string> { GetHeader() };
