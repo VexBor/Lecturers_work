@@ -128,7 +128,7 @@ internal class Program
         {
             menuItems.AddRange(new[] { "Мої курси", "Створити курс", "Поставити оцінку" });
         }
-        else if (auth.CurrentUser.Role == UserRole.Student)
+        else
         {
             menuItems.AddRange(new[] { "Всі курси", "Моя успішність" });
         }

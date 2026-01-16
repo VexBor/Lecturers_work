@@ -105,8 +105,7 @@
               "RelativeToolTip": "Lecturers_work\\Infrastructure\\Data\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:52:34.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:52:34.116Z"
             },
             {
               "$type": "Document",
@@ -116,7 +115,7 @@
               "RelativeDocumentMoniker": "Lecturers_work\\Program.cs",
               "ToolTip": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Program.cs",
               "RelativeToolTip": "Lecturers_work\\Program.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAqwDcAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAwIMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T08:17:39.89Z",
               "EditorCaption": ""
@@ -131,8 +130,7 @@
               "RelativeToolTip": "Lecturers_work\\Infrastructure\\Utils\\SecurityUtils.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAiwB8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T19:29:44.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T19:29:44.091Z"
             },
             {
               "$type": "Document",
@@ -156,8 +154,7 @@
               "RelativeToolTip": "Lecturers_work\\Infrastructure\\Data\\CourseRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:52:42.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:52:42.386Z"
             },
             {
               "$type": "Document",
@@ -169,8 +166,7 @@
               "RelativeToolTip": "Lecturers_work\\Infrastructure\\Data\\RecordRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:53:05.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:53:05.041Z"
             },
             {
               "$type": "Document",
@@ -182,8 +178,7 @@
               "RelativeToolTip": "Lecturers_work\\Application\\Services\\StudyService.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAswGcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:54:00.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:54:00.317Z"
             },
             {
               "$type": "Document",
@@ -195,8 +190,7 @@
               "RelativeToolTip": "Lecturers_work\\Infrastructure\\Data\\CsvRepositoryBase.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwBIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:52:24.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:52:24.342Z"
             },
             {
               "$type": "Document",
@@ -208,8 +202,7 @@
               "RelativeToolTip": "Lecturers_work\\Core\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:50:27.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:50:27.67Z"
             },
             {
               "$type": "Document",
@@ -221,8 +214,7 @@
               "RelativeToolTip": "Lecturers_work\\Core\\Entities\\Course.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:50:38.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:50:38.271Z"
             },
             {
               "$type": "Document",
@@ -234,8 +226,7 @@
               "RelativeToolTip": "Lecturers_work\\Core\\Entities\\Record.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:50:50.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:50:50.366Z"
             },
             {
               "$type": "Document",
@@ -247,8 +238,7 @@
               "RelativeToolTip": "Lecturers_work\\Core\\Interface\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:51:22.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:51:22.885Z"
             },
             {
               "$type": "Document",
@@ -260,8 +250,7 @@
               "RelativeToolTip": "Lecturers_work\\Core\\Interface\\IEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:51:38.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:51:38.33Z"
             },
             {
               "$type": "Document",
@@ -273,8 +262,7 @@
               "RelativeToolTip": "Lecturers_work\\Application\\Services\\AuthService.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAkwFcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:53:43.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T14:53:43.372Z"
             },
             {
               "$type": "Document",
