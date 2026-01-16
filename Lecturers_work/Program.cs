@@ -23,8 +23,8 @@ internal class Program
 
         Env.Load();
 
-        string adminPass = Environment.GetEnvironmentVariable("ADMIN_PASS") ?? "admin1";
-        string adminEmail = Environment.GetEnvironmentVariable("ADMIN_EMAIL") ?? "admin1";
+        string adminPass = Environment.GetEnvironmentVariable("ADMIN_PASS") ?? "admin";
+        string adminEmail = Environment.GetEnvironmentVariable("ADMIN_EMAIL") ?? "admin";
 
         // 1. Ініціалізація
         var userRepo = new UserRepository("users.csv");
@@ -130,7 +130,7 @@ internal class Program
         }
         else
         {
-            menuItems.AddRange(new[] { "Всі курси", "Моя успішність" });
+            menuItems.AddRange(new[] { "Курси", "Моя успішність" });
         }
 
         menuItems.Add("Вийти");
@@ -218,7 +218,7 @@ internal class Program
             }
 
             // Студент
-            else if (selection == "Всі курси")
+            else if (selection == "Курси")
             {
                 var courses = study.GetAllCourses();
 
