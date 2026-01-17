@@ -91,8 +91,16 @@ internal class Program
 
                 try
                 {
-                    auth.Register(name, newEmail, newPass, role);
-                    Success($"Акаунт створено! Тепер увійдіть як {roleName}.");
+                    bool s = auth.Register(name, newEmail, newPass, role);
+                    if (s == true)
+                    {
+                        Success($"Акаунт створено! Тепер увійдіть як {roleName}.");
+                    }
+                    else
+                    {
+                        AnsiConsole.MarkupLine($"[red]Користувач з таким email вже існує.[/]");
+                        Pause();
+                    }
                 }
                 catch (Exception ex)
                 {

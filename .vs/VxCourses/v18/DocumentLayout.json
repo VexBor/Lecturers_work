@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{33842CC1-0541-458F-9F1C-B62A8A04D22F}|Lecturers_work\\VxCourses.csproj|solutionrelative:lecturers_work\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{33842CC1-0541-458F-9F1C-B62A8A04D22F}|Lecturers_work\\VxCourses.csproj|c:\\users\\vadim\\documents\\opam\\lecturers_work\\lecturers_work\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33842CC1-0541-458F-9F1C-B62A8A04D22F}|Lecturers_work\\VxCourses.csproj|solutionrelative:lecturers_work\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33842CC1-0541-458F-9F1C-B62A8A04D22F}|Lecturers_work\\VxCourses.csproj|c:\\users\\vadim\\documents\\opam\\lecturers_work\\lecturers_work\\infrastructure\\utils\\securityutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33842CC1-0541-458F-9F1C-B62A8A04D22F}|Lecturers_work\\VxCourses.csproj|solutionrelative:lecturers_work\\infrastructure\\utils\\securityutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{33842CC1-0541-458F-9F1C-B62A8A04D22F}|Lecturers_work\\VxCourses.csproj|solutionrelative:lecturers_work\\application\\services\\studyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33842CC1-0541-458F-9F1C-B62A8A04D22F}|Lecturers_work\\VxCourses.csproj|c:\\users\\vadim\\documents\\opam\\lecturers_work\\lecturers_work\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33842CC1-0541-458F-9F1C-B62A8A04D22F}|Lecturers_work\\VxCourses.csproj|solutionrelative:lecturers_work\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33842CC1-0541-458F-9F1C-B62A8A04D22F}|Lecturers_work\\VxCourses.csproj|c:\\users\\vadim\\documents\\opam\\lecturers_work\\lecturers_work\\vxcourses.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{33842CC1-0541-458F-9F1C-B62A8A04D22F}|Lecturers_work\\VxCourses.csproj|solutionrelative:lecturers_work\\vxcourses.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -97,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Infrastructure\\Data\\UserRepository.cs",
               "RelativeDocumentMoniker": "Lecturers_work\\Infrastructure\\Data\\UserRepository.cs",
@@ -115,14 +115,14 @@
               "RelativeDocumentMoniker": "Lecturers_work\\Program.cs",
               "ToolTip": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Program.cs",
               "RelativeToolTip": "Lecturers_work\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL0AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwGUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T08:17:39.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SecurityUtils.cs",
               "DocumentMoniker": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Infrastructure\\Utils\\SecurityUtils.cs",
               "RelativeDocumentMoniker": "Lecturers_work\\Infrastructure\\Utils\\SecurityUtils.cs",
@@ -146,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CourseRepository.cs",
               "DocumentMoniker": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Infrastructure\\Data\\CourseRepository.cs",
               "RelativeDocumentMoniker": "Lecturers_work\\Infrastructure\\Data\\CourseRepository.cs",
@@ -158,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RecordRepository.cs",
               "DocumentMoniker": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Infrastructure\\Data\\RecordRepository.cs",
               "RelativeDocumentMoniker": "Lecturers_work\\Infrastructure\\Data\\RecordRepository.cs",
@@ -170,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "StudyService.cs",
               "DocumentMoniker": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Application\\Services\\StudyService.cs",
               "RelativeDocumentMoniker": "Lecturers_work\\Application\\Services\\StudyService.cs",
@@ -182,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CsvRepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Infrastructure\\Data\\CsvRepositoryBase.cs",
               "RelativeDocumentMoniker": "Lecturers_work\\Infrastructure\\Data\\CsvRepositoryBase.cs",
@@ -194,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Core\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Lecturers_work\\Core\\Entities\\User.cs",
@@ -206,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Core\\Entities\\Course.cs",
               "RelativeDocumentMoniker": "Lecturers_work\\Core\\Entities\\Course.cs",
@@ -218,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Record.cs",
               "DocumentMoniker": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Core\\Entities\\Record.cs",
               "RelativeDocumentMoniker": "Lecturers_work\\Core\\Entities\\Record.cs",
@@ -230,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Core\\Interface\\IRepository.cs",
               "RelativeDocumentMoniker": "Lecturers_work\\Core\\Interface\\IRepository.cs",
@@ -242,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IEntity.cs",
               "DocumentMoniker": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Core\\Interface\\IEntity.cs",
               "RelativeDocumentMoniker": "Lecturers_work\\Core\\Interface\\IEntity.cs",
@@ -254,15 +254,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Lecturers_work\\Application\\Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\vadim\\Documents\\OPAM\\Lecturers_work\\Lecturers_work\\Application\\Services\\AuthService.cs",
               "RelativeToolTip": "Lecturers_work\\Application\\Services\\AuthService.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T14:53:43.372Z"
+              "WhenOpened": "2026-01-05T14:53:43.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

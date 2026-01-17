@@ -47,9 +47,15 @@
         /// <param name="email">Електронна пошта (повинна бути унікальною).</param>
         /// <param name="password">Пароль (буде захешовано).</param>
         /// <param name="role">Роль користувача (Студент, Викладач, Адмін).</param>
-        public void Register(string name, string email, string password, UserRole role)
+        public bool Register(string name, string email, string password, UserRole role)
         {
             string passwordHash = SecurityUtils.HashPassword(password);
+            var user = _userRepo.GetAll()
+                .FirstOrDefault(u => u.Email == email);
+            if (user != null)
+            {
+                return false;
+            }
 
             _userRepo.Add(new User
             {
@@ -58,6 +64,7 @@
                 Password = passwordHash,
                 Role = role
             });
+            return true;
         }
 
         /// <summary>

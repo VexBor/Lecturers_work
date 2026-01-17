@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VxCourses")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fafd1c99f5c050e98530090c215481076f418c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1defb1a1dfb586a32aa77bb8e87323fec406ed3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("VxCourses")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VxCourses")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
